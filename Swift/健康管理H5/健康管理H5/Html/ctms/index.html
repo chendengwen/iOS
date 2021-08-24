@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>km-ctms-mobile</title><script>// 适配移动端
+      window.onresize=setHtmlFontSize;
+      function setHtmlFontSize(){
+        var deviceWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        var deviceHeight = document.documentElement.clientHeight;
+       //横屏状态
+        if (window.orientation === 90 || window.orientation === -90) {
+          deviceWidth = deviceHeight;
+         }
+        //设置根字体大小  document.documentElement.style.fontSize = deviceWidth/10 + 'px';
+        const htmlDom=document.getElementsByTagName('html')[0];
+        htmlDom.style.fontSize = deviceWidth/10 + 'px';
+      }
+      setHtmlFontSize();</script><link href=./static/css/app.bb6be12ab621a24e06cdb99ec86da11e.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.7de2eaca756f9f44eb7c.js></script><script type=text/javascript src=./static/js/app.e3f1024807ca9a70e84a.js></script></body></html>

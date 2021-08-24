@@ -1,0 +1,15 @@
+
+// 登录注册输入提示
+"RegistError_NoPhoneNum"            = "请输入手机号码";
+"RegistError_NoPassword"            = "请输入密码";
+"RegistError_UnValidPhoneNum"       = "请输入正确格式的手机号码";
+"RegistError_UnValidPassword"       = "密码格式错误：\n请输入6-20位字符或数字";
+"RegistError_NotEquelPassword"      = "两次密码不一致";
+"RegistError_NoCardID"              = "请输入密码身份证号";
+"RegistError_NoVerifyNum"           = "请输入验证码";
+
+
+"LoginError_NoName"                 = "请输入用户名";
+"LoginError_NoPassword"             = "请输入密码";
+"LoginError_WrongNameOrPsd"         = "用户名或密码错误";
+"LoginError_NoVerifyCode"           = "请输入验证码";

@@ -1,0 +1,25 @@
+platform :ios, '8.0'
+
+use_frameworks!
+inhibit_all_warnings!
+
+target 'U17' do
+
+pod 'SnapKitExtend'
+pod 'Then'
+pod 'Moya'
+pod 'HandyJSON', '5.0.0-beta.1'
+pod 'Kingfisher'
+pod 'Reusable'
+pod 'LLCycleScrollView'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'HMSegmentedControl'
+pod 'IQKeyboardManagerSwift'
+pod 'EmptyDataSet-Swift'
+pod 'UINavigation-SXFixSpace-Swift'
+
+pod 'RxSwift', '~> 5.0'
+pod 'RxCocoa', '~> 5.0'
+
+end

@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5ADAC919B9AB1700421A38 /* HMWheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ADAC819B9AB1700421A38 /* HMWheelButton.m */; };
+		EC7440E919B82DDA00FB06BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7440E819B82DDA00FB06BE /* Foundation.framework */; };
+		EC7440EB19B82DDA00FB06BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7440EA19B82DDA00FB06BE /* CoreGraphics.framework */; };
+		EC7440ED19B82DDA00FB06BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7440EC19B82DDA00FB06BE /* UIKit.framework */; };
+		EC7440F319B82DDA00FB06BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC7440F119B82DDA00FB06BE /* InfoPlist.strings */; };
+		EC7440F519B82DDA00FB06BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7440F419B82DDA00FB06BE /* main.m */; };
+		EC7440F919B82DDA00FB06BE /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7440F819B82DDA00FB06BE /* HMAppDelegate.m */; };
+		EC7440FC19B82DDA00FB06BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7440FA19B82DDA00FB06BE /* Main.storyboard */; };
+		EC7440FF19B82DDA00FB06BE /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7440FE19B82DDA00FB06BE /* HMViewController.m */; };
+		EC74410119B82DDA00FB06BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC74410019B82DDA00FB06BE /* Images.xcassets */; };
+		EC74410819B82DDA00FB06BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74410719B82DDA00FB06BE /* XCTest.framework */; };
+		EC74410919B82DDA00FB06BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7440E819B82DDA00FB06BE /* Foundation.framework */; };
+		EC74410A19B82DDA00FB06BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7440EC19B82DDA00FB06BE /* UIKit.framework */; };
+		EC74411219B82DDA00FB06BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC74411019B82DDA00FB06BE /* InfoPlist.strings */; };
+		EC74411419B82DDA00FB06BE /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74411319B82DDA00FB06BE /* __Tests.m */; };
+		EC74411F19B82DFC00FB06BE /* HMWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74411E19B82DFC00FB06BE /* HMWheelView.m */; };
+		EC74412119B82E3800FB06BE /* HMWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC74412019B82E3800FB06BE /* HMWheelView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC74410B19B82DDA00FB06BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7440DD19B82DDA00FB06BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7440E419B82DDA00FB06BE;
+			remoteInfo = "转盘";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5ADAC719B9AB1700421A38 /* HMWheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWheelButton.h; sourceTree = "<group>"; };
+		EC5ADAC819B9AB1700421A38 /* HMWheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWheelButton.m; sourceTree = "<group>"; };
+		EC7440E519B82DDA00FB06BE /* 转盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "转盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7440E819B82DDA00FB06BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC7440EA19B82DDA00FB06BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC7440EC19B82DDA00FB06BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC7440F019B82DDA00FB06BE /* 转盘-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "转盘-Info.plist"; sourceTree = "<group>"; };
+		EC7440F219B82DDA00FB06BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC7440F419B82DDA00FB06BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC7440F619B82DDA00FB06BE /* 转盘-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "转盘-Prefix.pch"; sourceTree = "<group>"; };
+		EC7440F719B82DDA00FB06BE /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
+		EC7440F819B82DDA00FB06BE /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
+		EC7440FB19B82DDA00FB06BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC7440FD19B82DDA00FB06BE /* HMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		EC7440FE19B82DDA00FB06BE /* HMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+		EC74410019B82DDA00FB06BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC74410619B82DDA00FB06BE /* 转盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "转盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC74410719B82DDA00FB06BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC74410F19B82DDA00FB06BE /* 转盘Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "转盘Tests-Info.plist"; sourceTree = "<group>"; };
+		EC74411119B82DDA00FB06BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC74411319B82DDA00FB06BE /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		EC74411D19B82DFC00FB06BE /* HMWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWheelView.h; sourceTree = "<group>"; };
+		EC74411E19B82DFC00FB06BE /* HMWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWheelView.m; sourceTree = "<group>"; };
+		EC74412019B82E3800FB06BE /* HMWheelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMWheelView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7440E219B82DDA00FB06BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7440EB19B82DDA00FB06BE /* CoreGraphics.framework in Frameworks */,
+				EC7440ED19B82DDA00FB06BE /* UIKit.framework in Frameworks */,
+				EC7440E919B82DDA00FB06BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC74410319B82DDA00FB06BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74410819B82DDA00FB06BE /* XCTest.framework in Frameworks */,
+				EC74410A19B82DDA00FB06BE /* UIKit.framework in Frameworks */,
+				EC74410919B82DDA00FB06BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7440DC19B82DDA00FB06BE = {
+			isa = PBXGroup;
+			children = (
+				EC7440EE19B82DDA00FB06BE /* 转盘 */,
+				EC74410D19B82DDA00FB06BE /* 转盘Tests */,
+				EC7440E719B82DDA00FB06BE /* Frameworks */,
+				EC7440E619B82DDA00FB06BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7440E619B82DDA00FB06BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7440E519B82DDA00FB06BE /* 转盘.app */,
+				EC74410619B82DDA00FB06BE /* 转盘Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7440E719B82DDA00FB06BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC7440E819B82DDA00FB06BE /* Foundation.framework */,
+				EC7440EA19B82DDA00FB06BE /* CoreGraphics.framework */,
+				EC7440EC19B82DDA00FB06BE /* UIKit.framework */,
+				EC74410719B82DDA00FB06BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC7440EE19B82DDA00FB06BE /* 转盘 */ = {
+			isa = PBXGroup;
+			children = (
+				EC7440F719B82DDA00FB06BE /* HMAppDelegate.h */,
+				EC7440F819B82DDA00FB06BE /* HMAppDelegate.m */,
+				EC7440FA19B82DDA00FB06BE /* Main.storyboard */,
+				EC74411D19B82DFC00FB06BE /* HMWheelView.h */,
+				EC74411E19B82DFC00FB06BE /* HMWheelView.m */,
+				EC5ADAC719B9AB1700421A38 /* HMWheelButton.h */,
+				EC5ADAC819B9AB1700421A38 /* HMWheelButton.m */,
+				EC74412019B82E3800FB06BE /* HMWheelView.xib */,
+				EC7440FD19B82DDA00FB06BE /* HMViewController.h */,
+				EC7440FE19B82DDA00FB06BE /* HMViewController.m */,
+				EC74410019B82DDA00FB06BE /* Images.xcassets */,
+				EC7440EF19B82DDA00FB06BE /* Supporting Files */,
+			);
+			path = "转盘";
+			sourceTree = "<group>";
+		};
+		EC7440EF19B82DDA00FB06BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC7440F019B82DDA00FB06BE /* 转盘-Info.plist */,
+				EC7440F119B82DDA00FB06BE /* InfoPlist.strings */,
+				EC7440F419B82DDA00FB06BE /* main.m */,
+				EC7440F619B82DDA00FB06BE /* 转盘-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC74410D19B82DDA00FB06BE /* 转盘Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC74411319B82DDA00FB06BE /* __Tests.m */,
+				EC74410E19B82DDA00FB06BE /* Supporting Files */,
+			);
+			path = "转盘Tests";
+			sourceTree = "<group>";
+		};
+		EC74410E19B82DDA00FB06BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC74410F19B82DDA00FB06BE /* 转盘Tests-Info.plist */,
+				EC74411019B82DDA00FB06BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7440E419B82DDA00FB06BE /* 转盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC74411719B82DDA00FB06BE /* Build configuration list for PBXNativeTarget "转盘" */;
+			buildPhases = (
+				EC7440E119B82DDA00FB06BE /* Sources */,
+				EC7440E219B82DDA00FB06BE /* Frameworks */,
+				EC7440E319B82DDA00FB06BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "转盘";
+			productName = "转盘";
+			productReference = EC7440E519B82DDA00FB06BE /* 转盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC74410519B82DDA00FB06BE /* 转盘Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC74411A19B82DDA00FB06BE /* Build configuration list for PBXNativeTarget "转盘Tests" */;
+			buildPhases = (
+				EC74410219B82DDA00FB06BE /* Sources */,
+				EC74410319B82DDA00FB06BE /* Frameworks */,
+				EC74410419B82DDA00FB06BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC74410C19B82DDA00FB06BE /* PBXTargetDependency */,
+			);
+			name = "转盘Tests";
+			productName = "转盘Tests";
+			productReference = EC74410619B82DDA00FB06BE /* 转盘Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7440DD19B82DDA00FB06BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iThinker;
+				TargetAttributes = {
+					EC74410519B82DDA00FB06BE = {
+						TestTargetID = EC7440E419B82DDA00FB06BE;
+					};
+				};
+			};
+			buildConfigurationList = EC7440E019B82DDA00FB06BE /* Build configuration list for PBXProject "转盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7440DC19B82DDA00FB06BE;
+			productRefGroup = EC7440E619B82DDA00FB06BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7440E419B82DDA00FB06BE /* 转盘 */,
+				EC74410519B82DDA00FB06BE /* 转盘Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7440E319B82DDA00FB06BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74410119B82DDA00FB06BE /* Images.xcassets in Resources */,
+				EC74412119B82E3800FB06BE /* HMWheelView.xib in Resources */,
+				EC7440F319B82DDA00FB06BE /* InfoPlist.strings in Resources */,
+				EC7440FC19B82DDA00FB06BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC74410419B82DDA00FB06BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74411219B82DDA00FB06BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7440E119B82DDA00FB06BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5ADAC919B9AB1700421A38 /* HMWheelButton.m in Sources */,
+				EC7440FF19B82DDA00FB06BE /* HMViewController.m in Sources */,
+				EC74411F19B82DFC00FB06BE /* HMWheelView.m in Sources */,
+				EC7440F519B82DDA00FB06BE /* main.m in Sources */,
+				EC7440F919B82DDA00FB06BE /* HMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC74410219B82DDA00FB06BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC74411419B82DDA00FB06BE /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC74410C19B82DDA00FB06BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7440E419B82DDA00FB06BE /* 转盘 */;
+			targetProxy = EC74410B19B82DDA00FB06BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC7440F119B82DDA00FB06BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7440F219B82DDA00FB06BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC7440FA19B82DDA00FB06BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7440FB19B82DDA00FB06BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC74411019B82DDA00FB06BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC74411119B82DDA00FB06BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC74411519B82DDA00FB06BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC74411619B82DDA00FB06BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC74411819B82DDA00FB06BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "转盘/转盘-Prefix.pch";
+				INFOPLIST_FILE = "转盘/转盘-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC74411919B82DDA00FB06BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "转盘/转盘-Prefix.pch";
+				INFOPLIST_FILE = "转盘/转盘-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC74411B19B82DDA00FB06BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/转盘.app/转盘";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "转盘/转盘-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "转盘Tests/转盘Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC74411C19B82DDA00FB06BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/转盘.app/转盘";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "转盘/转盘-Prefix.pch";
+				INFOPLIST_FILE = "转盘Tests/转盘Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7440E019B82DDA00FB06BE /* Build configuration list for PBXProject "转盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC74411519B82DDA00FB06BE /* Debug */,
+				EC74411619B82DDA00FB06BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC74411719B82DDA00FB06BE /* Build configuration list for PBXNativeTarget "转盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC74411819B82DDA00FB06BE /* Debug */,
+				EC74411919B82DDA00FB06BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC74411A19B82DDA00FB06BE /* Build configuration list for PBXNativeTarget "转盘Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC74411B19B82DDA00FB06BE /* Debug */,
+				EC74411C19B82DDA00FB06BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7440DD19B82DDA00FB06BE /* Project object */;
+}

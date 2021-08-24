@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/gary/Library/Developer/Shared/Documentation/DocSets/com.kmcloud.funcgroup.FuncGroup.docset
+Time: 2017-03-27 05:44:01 +0000

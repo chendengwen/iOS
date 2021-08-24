@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: Routable.xcodeproj
+xcode_scheme: Routable
+xcode_sdk: iphonesimulator

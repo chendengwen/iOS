@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qjg-Rb-Bj6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--家庭圈-->
+        <scene sceneID="tdh-es-JhY">
+            <objects>
+                <navigationController id="qjg-Rb-Bj6" customClass="NavigationController" customModule="YiYangCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="101" title="家庭圈" image="icon2" selectedImage="icon_blue2" id="EIX-GJ-QQM">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" shadowImage="angle-mask.png" backIndicatorImage="btn2" id="m4Q-wR-0bw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.31372549020000001" green="0.47843137250000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="sQa-lZ-ABs" kind="relationship" relationship="rootViewController" id="Frl-Vb-2gX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AAD-nD-hKd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="198" y="-146"/>
+        </scene>
+        <!--家庭圈-->
+        <scene sceneID="bPC-2J-rw5">
+            <objects>
+                <viewController title="家庭圈" id="sQa-lZ-ABs" customClass="FamilyGroupVC" customModule="YiYangCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="85" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZOg-jw-cCc">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="familyMemberCell" id="eeR-aw-JZ8" customClass="FamilyMemberCell" customModule="YiYangCloud" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="85"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eeR-aw-JZ8" id="1mU-wc-7Dw">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="sQa-lZ-ABs" id="Xbe-um-Zib"/>
+                            <outlet property="delegate" destination="sQa-lZ-ABs" id="HPd-fU-8q7"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="家庭圈" id="wo6-nu-vYn">
+                        <barButtonItem key="rightBarButtonItem" title="添加成员" id="Pog-zT-rV0">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="gotoSearchVC:" destination="sQa-lZ-ABs" id="bHI-Gs-xwx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="ZOg-jw-cCc" id="Ooh-GD-t0j"/>
+                        <segue destination="66Z-JN-t6f" kind="push" identifier="sugueID_LocationRecord" id="6Uq-9p-RES"/>
+                        <segue destination="dEq-p9-7Rl" kind="push" identifier="sugueID_FamilyDetail" id="qEW-lH-vQD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="75Z-Tq-KMH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879" y="-152"/>
+        </scene>
+        <!--LocationRecord-->
+        <scene sceneID="uT9-VE-6Ff">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LocationRecord" id="66Z-JN-t6f" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Njt-Hd-D2R"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kjg-xx-7zQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1513" y="-161"/>
+        </scene>
+        <!--FamilyDetail-->
+        <scene sceneID="oPB-im-xGM">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FamilyDetail" id="dEq-p9-7Rl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gjX-Dc-19j"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N0L-j4-nyI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1495" y="-96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="angle-mask.png" width="100" height="100"/>
+        <image name="btn2" width="63" height="63"/>
+        <image name="icon2" width="19" height="19"/>
+        <image name="icon_blue2" width="19" height="19"/>
+    </resources>
+</document>

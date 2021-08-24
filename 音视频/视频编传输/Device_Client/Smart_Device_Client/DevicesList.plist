@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>type</key>
+		<string>0</string>
+		<key>name</key>
+		<string>监控</string>
+		<key>id</key>
+		<string>12346</string>
+		<key>ip</key>
+		<string>10.2.32.67</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>1</string>
+		<key>name</key>
+		<string>窗帘</string>
+		<key>id</key>
+		<string>12346</string>
+		<key>ip</key>
+		<string>192.168.3.11</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>4</string>
+		<key>name</key>
+		<string>插座</string>
+		<key>id</key>
+		<string>12349</string>
+		<key>ip</key>
+		<string>192.168.3.19</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>2</string>
+		<key>name</key>
+		<string>电灯</string>
+		<key>id</key>
+		<string>12347</string>
+		<key>ip</key>
+		<string>192.168.3.11</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>3</string>
+		<key>name</key>
+		<string>空调</string>
+		<key>id</key>
+		<string>12348</string>
+		<key>ip</key>
+		<string>192.168.3.11</string>
+	</dict>
+</array>
+</plist>

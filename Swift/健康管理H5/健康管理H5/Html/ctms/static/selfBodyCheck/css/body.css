@@ -1,0 +1,325 @@
+
+/*男人正面*/
+#wrap_cavas_man_front
+{
+    display: inline-block;
+    width: 7.5rem;
+}
+
+
+#all_man_front
+{
+    display: inline-block;
+
+    width: 7.5rem;
+    height: 11rem;
+
+	background: url(../image/man_front.png) 0 11rem;
+    background-size: 7.5rem;
+}
+
+.item_imgs_man_front
+{
+    position: absolute;
+    top: 0;
+    left:0;
+
+    display: none;
+
+    width: 7.5rem;
+    height: 11rem;
+
+    background: url(../image/man_front.png);
+    background-size: 7.5rem;
+}
+
+#man_front_head
+{
+    background-position: 0 91.05rem;
+}
+
+#man_front_left_hand
+{
+    background-position: 0 51rem;
+}
+
+*#man_front_right_hand
+{
+	
+    background-position: 0 51rem;
+}
+
+#man_front_sex
+{
+	background-position: 0 -29rem;
+}
+
+#man_front_neck
+{
+    background-position: 0 64.4rem;
+}
+#man_front_belly
+{
+	
+   background-position: 0 -69rem;
+}
+
+#man_front_chest
+{
+	background-position: 0 -82.38rem;
+}
+
+
+#man_front_foot
+{
+    background-position: 0 -2.3rem;
+}
+
+
+
+/*男人反面*/
+#wrap_cavas_man_back
+{
+    display: inline-block;
+
+    width: 7.5rem;
+}
+
+
+#all_man_back
+{
+    display: inline-block;
+
+    width: 7.5rem;
+    height: 11rem;
+
+    background: url(../image/man_back.png) 0 -82.4rem;
+    background-size: 7.5rem;
+}
+
+.item_imgs_man_back
+{
+    position: absolute;
+    top: 0;
+    left:0;
+
+    display: none;
+
+    width: 7.5rem;
+    height: 11rem;
+
+    background: url(../image/man_back.png);
+    background-size: 7.5rem;
+}
+
+
+#man_back_head
+{
+    background-position: 0px 91rem;
+}
+
+#man_back_left_hand
+{
+	
+    background-position: 0px 37.65rem;
+}
+
+#man_back_right_hand
+{
+    background-position: 0px 37.65rem;
+}
+
+#man_back_hip
+{
+	
+	
+	
+    background-position: 0 50.95rem
+}
+
+#man_back_neck
+{
+	
+ 	background-position: 0px 64.35rem;
+}
+
+
+#man_back_back
+{
+	
+	background-position: 0px 117.7rem;
+   
+}
+
+
+#man_back_waist
+{
+	
+     background-position: 0px 77.6rem;
+}
+
+
+
+
+#man_back_foot
+{
+    background-position: 0px 104.3rem;
+}
+
+
+/*女人正面*/
+
+#wrap_cavas_girl_front
+{
+    display: inline-block;
+    width: 7.5rem;
+}
+
+
+#all_girl_front
+{
+    display: inline-block;
+    width: 7.5rem;
+    height: 11rem;
+    background: url(../image/girl_f-min.png)  0 -2.37rem;
+    background-position: 0 10.90rem;
+    background-size: 7.5rem;
+}
+
+.item_imgs_girl_front
+{
+	top:0;
+	left: 0;
+    position: absolute;
+    display: none;
+
+    width: 7.5rem;
+    height:11rem;
+
+    background: url(../image/girl_front.png);
+    background-size: 7.5rem;
+}
+
+#girl_front_head
+{
+	background-position: 0 -15.78rem;
+}
+#girl_front_left_hand
+{
+   background-position: 0 -55.82rem;
+}
+
+#girl_front_right_hand
+{
+    background-position: 0 -55.82rem;
+}
+
+#girl_front_sex
+{
+   background-position: 0 -29.12rem;
+}
+
+#girl_front_neck
+{		
+        background-position: 0 -42.42rem;
+}
+#girl_front_belly
+{
+	
+	
+    background-position: 0 -69.12rem;
+}
+
+#girl_front_chest
+{
+
+    background-position: 0 -82.47rem;
+}
+
+
+#girl_front_foot
+{
+	    background-position: 0 -2.43rem;
+}
+
+
+
+/*女人反面*/
+
+#wrap_cavas_girl_back
+{
+    display: inline-block;
+    width: 7.5rem;
+}
+
+
+#all_girl_back
+{
+    display: inline-block;
+    width: 7.5rem;
+    height: 11rem;
+   	background:url(../image/girl_back.png) 0 23.9rem;
+    background-size: 7.5rem;
+}
+
+.item_imgs_girl_back
+{
+    position: absolute;
+    top: 0;
+    left:0;
+
+    display: none;
+
+    width: 7.5rem;
+    height: 11rem;
+
+    background: url(../image/girl_back.png);
+    background-size: 7.5rem;
+}
+
+
+#girl_back_head
+{
+    background-position: 0px 197.31rem;
+}
+
+#girl_back_left_hand
+{
+    background-position: 0px 37.25rem;
+}
+
+#girl_back_right_hand
+{
+    background-position: 0px 37.25rem;
+}
+
+#girl_back_hip
+{
+    background-position: 0px 50.55rem;
+    
+}
+
+#girl_back_neck
+{
+       background-position: 0 -42.8rem;
+}
+
+
+#girl_back_back
+{
+	
+    background-position: 0 117.3rem;
+}
+
+
+#girl_back_waist
+{
+	
+    background-position: 0 -29.5rem;
+}
+
+
+#girl_back_foot
+{
+    background-position: 0 -109.5rem;
+}

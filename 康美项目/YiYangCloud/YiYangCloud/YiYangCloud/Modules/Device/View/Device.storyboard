@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xwZ-gm-3Hs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--设备管理-->
+        <scene sceneID="y4D-U8-Mux">
+            <objects>
+                <navigationController id="xwZ-gm-3Hs" customClass="NavigationController" customModule="YiYangCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="设备管理" image="icon3" selectedImage="icon_blue3" id="Rfh-Xg-Rjo">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="AVi-FB-YN3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.31372549020000001" green="0.47843137250000001" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2wY-5k-YQN" kind="relationship" relationship="rootViewController" id="vlF-52-yHq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZNA-ud-vTe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-647" y="600"/>
+        </scene>
+        <!--设备管理-->
+        <scene sceneID="KeA-Ps-AgN">
+            <objects>
+                <viewController title="设备管理" id="2wY-5k-YQN" customClass="DeviceManageVC" customModule="YiYangCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hoy-hL-End"/>
+                        <viewControllerLayoutGuide type="bottom" id="dfx-EI-uhO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a1l-lo-Fx1">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HTB-q9-8pB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHa-eW-B3r">
+                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="44"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="健康4加1">
+                                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didClickDeviceBtn:" destination="2wY-5k-YQN" eventType="touchUpInside" id="GjK-hT-fle"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSO-7K-gcM">
+                                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="44"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="智能穿戴">
+                                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didClickDeviceBtn:" destination="2wY-5k-YQN" eventType="touchUpInside" id="mij-it-wqm"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YGm-1T-b9M">
+                                        <rect key="frame" x="0.0" y="41" width="120" height="2"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.34979584813117981" green="0.47322133183479309" blue="0.94064593315124512" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="gSO-7K-gcM" firstAttribute="width" secondItem="oHa-eW-B3r" secondAttribute="width" id="A6k-4o-pKB"/>
+                                    <constraint firstAttribute="bottom" secondItem="gSO-7K-gcM" secondAttribute="bottom" id="Bzw-cd-4Xa"/>
+                                    <constraint firstAttribute="bottom" secondItem="oHa-eW-B3r" secondAttribute="bottom" id="Iqs-FU-P3U"/>
+                                    <constraint firstItem="gSO-7K-gcM" firstAttribute="leading" secondItem="oHa-eW-B3r" secondAttribute="trailing" id="Nz5-nt-zwp"/>
+                                    <constraint firstItem="gSO-7K-gcM" firstAttribute="leading" secondItem="oHa-eW-B3r" secondAttribute="trailing" id="V6c-Tx-wcC"/>
+                                    <constraint firstItem="oHa-eW-B3r" firstAttribute="top" secondItem="HTB-q9-8pB" secondAttribute="top" id="X1n-ui-Ov2"/>
+                                    <constraint firstItem="oHa-eW-B3r" firstAttribute="leading" secondItem="HTB-q9-8pB" secondAttribute="leading" id="Zi0-VW-YQg"/>
+                                    <constraint firstAttribute="height" constant="44" id="fNM-EI-bfp"/>
+                                    <constraint firstAttribute="trailing" secondItem="gSO-7K-gcM" secondAttribute="trailing" id="mh1-aJ-zt0"/>
+                                    <constraint firstItem="gSO-7K-gcM" firstAttribute="top" secondItem="HTB-q9-8pB" secondAttribute="top" id="ttF-6p-PTG"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3MD-2V-p5w">
+                                <rect key="frame" x="0.0" y="54" width="375" height="505"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TOb-xM-0yF">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XRs-1F-93z">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="2wY-5k-YQN" id="WMm-KR-hUl"/>
+                                    <outlet property="delegate" destination="2wY-5k-YQN" id="zQ5-G8-i0R"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.95294117647058818" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="HTB-q9-8pB" firstAttribute="leading" secondItem="a1l-lo-Fx1" secondAttribute="leading" id="0fZ-jj-Yju"/>
+                            <constraint firstAttribute="trailing" secondItem="3MD-2V-p5w" secondAttribute="trailing" id="BHv-tg-otO"/>
+                            <constraint firstItem="3MD-2V-p5w" firstAttribute="leading" secondItem="a1l-lo-Fx1" secondAttribute="leading" id="Hrx-Vk-yeR"/>
+                            <constraint firstItem="dfx-EI-uhO" firstAttribute="top" secondItem="3MD-2V-p5w" secondAttribute="bottom" id="O7m-dq-RmL"/>
+                            <constraint firstItem="3MD-2V-p5w" firstAttribute="top" secondItem="HTB-q9-8pB" secondAttribute="bottom" constant="10" id="Phq-XX-nkh"/>
+                            <constraint firstAttribute="trailing" secondItem="HTB-q9-8pB" secondAttribute="trailing" id="j5c-R1-LL5"/>
+                            <constraint firstItem="HTB-q9-8pB" firstAttribute="top" secondItem="hoy-hL-End" secondAttribute="bottom" id="kuz-2a-nHp"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="设备管理" id="EuV-N0-opQ">
+                        <barButtonItem key="rightBarButtonItem" image="jia" id="Mmc-gY-Vxm">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="didClickAdd:" destination="2wY-5k-YQN" id="1QW-Ma-5cJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="collectionView" destination="3MD-2V-p5w" id="JzL-Dy-Kqc"/>
+                        <outlet property="deviceBtn" destination="gSO-7K-gcM" id="fov-NL-eKV"/>
+                        <outlet property="flowLayout" destination="TOb-xM-0yF" id="xZn-Ot-dne"/>
+                        <outlet property="healthBtn" destination="oHa-eW-B3r" id="U5a-Lx-XqD"/>
+                        <outlet property="scrollView" destination="YGm-1T-b9M" id="4XG-LU-mau"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hon-LF-hJU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.8" y="597.75112443778119"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon3" width="18" height="19"/>
+        <image name="icon_blue3" width="19" height="19"/>
+        <image name="jia" width="18" height="18"/>
+    </resources>
+</document>

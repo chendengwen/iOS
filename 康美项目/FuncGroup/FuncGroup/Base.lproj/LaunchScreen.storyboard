@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad12_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="km_bg" translatesAutoresizingMaskIntoConstraints="NO" id="jT6-MH-xHv">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="km_logo_English" translatesAutoresizingMaskIntoConstraints="NO" id="hH6-af-pbA">
+                                <rect key="frame" x="522" y="300" width="322" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="322" id="dy1-CW-oDZ"/>
+                                    <constraint firstAttribute="height" constant="136" id="nnz-Pq-Ht2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="康美健康工作站" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWU-Dg-EBQ">
+                                <rect key="frame" x="533" y="466" width="300" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="7gO-1V-t09"/>
+                                    <constraint firstAttribute="height" constant="24" id="da3-m4-0aP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All right acheived" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlU-fU-PY2">
+                                <rect key="frame" x="605.5" y="970" width="155" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jT6-MH-xHv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="0t7-Wx-2vA"/>
+                            <constraint firstAttribute="trailing" secondItem="jT6-MH-xHv" secondAttribute="trailing" id="90u-6Y-fbt"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="jT6-MH-xHv" secondAttribute="bottom" id="DbV-yw-Pgp"/>
+                            <constraint firstItem="tWU-Dg-EBQ" firstAttribute="centerX" secondItem="hH6-af-pbA" secondAttribute="centerX" id="O67-wo-mj4"/>
+                            <constraint firstItem="hH6-af-pbA" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="300" id="aeO-g4-fjG"/>
+                            <constraint firstItem="AlU-fU-PY2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bGC-iD-Ady"/>
+                            <constraint firstItem="hH6-af-pbA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gDB-Ra-24n"/>
+                            <constraint firstItem="jT6-MH-xHv" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="gJA-L6-eBe"/>
+                            <constraint firstItem="tWU-Dg-EBQ" firstAttribute="top" secondItem="hH6-af-pbA" secondAttribute="bottom" constant="30" id="vjw-ki-CLS"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="AlU-fU-PY2" secondAttribute="bottom" constant="30" id="wcc-VC-tCM"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="km_bg" width="1920" height="1200"/>
+        <image name="km_logo_English" width="322" height="136"/>
+    </resources>
+</document>

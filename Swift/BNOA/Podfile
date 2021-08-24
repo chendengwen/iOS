@@ -1,0 +1,36 @@
+platform :ios, '9.0'
+
+target 'BNOA' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BNOA
+  pod 'Moya'
+  pod 'RealmSwift'
+  pod 'HandyJSON'
+  pod 'Kingfisher'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SnapKitExtend'
+  pod 'Then'
+  pod 'EmptyDataSet-Swift'
+
+  pod 'MJRefresh'
+  pod 'SVProgressHUD'
+  pod 'SDCycleScrollView'
+  pod 'SwiftRichString'
+  pod 'SkyFloatingLabelTextField'
+  pod 'Reusable'
+
+  # Pods for testing
+  target 'BNOATests' do
+    inherit! :search_paths
+    
+    pod 'Realm/Headers'
+  end
+
+  target 'BNOAUITests' do
+    inherit! :search_paths
+    
+  end
+
+end

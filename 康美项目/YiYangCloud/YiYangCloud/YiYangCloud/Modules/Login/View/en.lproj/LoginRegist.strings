@@ -1,0 +1,63 @@
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "0R1-1h-sCT"; */
+"0R1-1h-sCT.normalTitle" = "登录";
+
+/* Class = "UISegmentedControl"; 1dJ-xB-IuP.segmentTitles[0] = "登录"; ObjectID = "1dJ-xB-IuP"; */
+"1dJ-xB-IuP.segmentTitles[0]" = "登录";
+
+/* Class = "UISegmentedControl"; 1dJ-xB-IuP.segmentTitles[1] = "注册"; ObjectID = "1dJ-xB-IuP"; */
+"1dJ-xB-IuP.segmentTitles[1]" = "Regist";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "1q6-D1-GKG"; */
+"1q6-D1-GKG.placeholder" = "请输入密码";
+
+/* Class = "UITextField"; placeholder = " 请输入手机号"; ObjectID = "532-7o-kyf"; */
+"532-7o-kyf.placeholder" = " 请输入手机号";
+
+/* Class = "UIButton"; normalTitle = "找回密码"; ObjectID = "72K-iL-L6J"; */
+"72K-iL-L6J.normalTitle" = "找回密码";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "8wI-Ze-2um"; */
+"8wI-Ze-2um.placeholder" = "密码";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "CyS-0v-I8P"; */
+"CyS-0v-I8P.placeholder" = "请输入验证码";
+
+/* Class = "UITextField"; placeholder = "请再次输入密码"; ObjectID = "QJ3-qN-hcg"; */
+"QJ3-qN-hcg.placeholder" = "请再次输入密码";
+
+/* Class = "UIButton"; normalTitle = " 我已阅读并同意"; ObjectID = "QZU-D5-oMQ"; */
+"QZU-D5-oMQ.normalTitle" = " 我已阅读并同意";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "VJb-ti-V9w"; */
+"VJb-ti-V9w.placeholder" = "请输入验证码";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "ViQ-Nu-7gr"; */
+"ViQ-Nu-7gr.placeholder" = "请输入密码";
+
+/* Class = "UITextField"; placeholder = "请输入身份证号"; ObjectID = "aqj-je-kcn"; */
+"aqj-je-kcn.placeholder" = "请输入身份证号";
+
+/* Class = "UITextField"; placeholder = " 请输入手机号"; ObjectID = "dmi-2e-FAy"; */
+"dmi-2e-FAy.placeholder" = "请输入手机号";
+
+/* Class = "UITextField"; placeholder = "please entrance user name"; ObjectID = "fW6-UZ-TwC"; */
+"fW6-UZ-TwC.placeholder" = "请输入用户名";
+
+/* Class = "UIButton"; normalTitle = "提 交"; ObjectID = "h1O-iS-F0a"; */
+"h1O-iS-F0a.normalTitle" = "提 交";
+
+/* Class = "UIButton"; normalTitle = "《康美健康云协议》"; ObjectID = "kK1-20-Kss"; */
+"kK1-20-Kss.normalTitle" = "《康美健康云协议》";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "nlO-oO-H8X"; */
+"nlO-oO-H8X.normalTitle" = "获取验证码";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "qSL-Ax-0Uf"; */
+"qSL-Ax-0Uf.normalTitle" = "获取验证码";
+
+/* Class = "UISegmentedControl"; ybj-r9-bA4.segmentTitles[0] = "登录"; ObjectID = "ybj-r9-bA4"; */
+"ybj-r9-bA4.segmentTitles[0]" = "Login";
+
+/* Class = "UISegmentedControl"; ybj-r9-bA4.segmentTitles[1] = "注册"; ObjectID = "ybj-r9-bA4"; */
+"ybj-r9-bA4.segmentTitles[1]" = "Regist";

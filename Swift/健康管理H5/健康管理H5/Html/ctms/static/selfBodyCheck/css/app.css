@@ -1,0 +1,65 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    -ms-touch-action: none;
+     font-family: "Microsoft YaHei";
+     /* font-family:STXihei,\534E\6587\7EC6\9ED1 */	
+}
+
+body,ul,li,dl,p{
+    padding: 0;
+    margin: 0;
+    border: 0;
+     
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: blink;
+}
+
+/*点击阴影解决*/
+a,img,button,input,textarea,canvas,span{
+	-webkit-tap-highlight-color:transparent;
+ 	-webkit-appearance:none;	
+    outline:none
+}
+
+{
+ -webkit-backface-visibility: hidden;
+-webkit-transform-style: preserve-3d;
+}
+
+
+  
+
+
+
+/******************** 文本设置 *************************************/
+h1,h2,h3,h4,h5 {
+	margin-top: 0;
+}
+
+/******************** end *************************************/
+
+/*浮动布局—*/
+.c-row {
+	*zoom: 1
+}
+
+.c-row:after {
+	display: block;
+	height: 0;
+	content: "";
+	clear: both;
+	visibility: hidden
+}
+

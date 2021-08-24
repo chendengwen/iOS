@@ -1,0 +1,9 @@
+<1.>UIViewControllerAnimatedTransitioning   动画协议
+
+<2>.UIViewControllerInteractiveTransitioning  交互协议
+
+<3>.UIViewControllerContextTransitioning      上下文协议
+
+<4>.UIPercentDrivenInteractiveTransition         遵守<2>协议的一个官方类
+
+

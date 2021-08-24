@@ -1,0 +1,16 @@
+PODS:
+  - WLRRoute (0.0.6)
+
+DEPENDENCIES:
+  - WLRRoute (from `../`)
+
+EXTERNAL SOURCES:
+  WLRRoute:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WLRRoute: 06e9865a68df9e28a647e892f1294ed33ca27b6a
+
+PODFILE CHECKSUM: d2c1d30c37b28d4f92a50a6129b7c5fc7f2e356b
+
+COCOAPODS: 1.2.0.beta.1

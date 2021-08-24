@@ -1,0 +1,97 @@
+.btn-groups {
+  border: 1px solid #ffffff;
+  display: inline-block;
+  border-radius: 5px;
+}
+.btn-groups .btn-group {
+  width: 1.9rem;
+  padding: .2rem 0rem;
+  margin: 0;
+  float: left;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: .3rem;
+}
+.btn-groups .btn-group.active {
+  background-color: #fff;
+  color: #333333;
+}
+.btn-group + .btn-group {
+  border-left: 1px solid #ffffff;
+}
+/***********************************手风琴-start*****************************************/
+button.accordion {
+  background-color: #fff;
+  color: #333;
+  font-size: .28rem;
+  cursor: pointer;
+  padding: .31rem .5rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-top: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  margin: 0;
+  outline: none;
+  box-shadow: none;
+  /*transition: 0.4s;*/
+}
+div.panel {
+  padding: .26rem .5rem;
+  background-color: ##FCFCFC;
+  display: none;
+}
+div.panel.show {
+  display: block !important;
+}
+button.accordion:after {
+  background: url(../img/iconfont-arrow@2x.png);
+  content: " ";
+  /* Unicode character for "plus" sign (+) */
+  background-size: .3rem;
+  width: .3rem;
+  height: .3rem;
+  float: right;
+}
+button.accordion.active:after {
+  background: url(../img/iconfont-arrow-down@2x.png);
+  background-size: .3rem;
+}
+/* Style the list */
+ul.tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #F5F5F5;
+}
+ul.tab li {
+  float: left;
+}
+ul.tab:after {
+  display: table;
+  position: absolute;
+  content: " ";
+  height: .6rem;
+  width: 1px;
+  top: .2rem;
+  background-color: #F5F5F5;
+}
+ul.tab li a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: .24rem .15rem;
+    width: 2.5rem;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: .32rem;
+    border-bottom: 3px solid #fff;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+
+  border-top: none;
+}

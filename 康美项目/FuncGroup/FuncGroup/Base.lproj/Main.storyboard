@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9sr-ba-YB7">
+    <device id="ipad12_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="qxO-b4-6LJ">
+            <objects>
+                <navigationController id="9sr-ba-YB7" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KKP-cL-Gke">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9IR-e9-x5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-911" y="-243"/>
+        </scene>
+        <!--Entrance View Controller-->
+        <scene sceneID="ev5-eM-dcG">
+            <objects>
+                <viewController storyboardIdentifier="EntranceViewController" id="PAX-0K-aGM" customClass="EntranceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wKI-D2-JKm"/>
+                        <viewControllerLayoutGuide type="bottom" id="CCY-LB-pgJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4MW-Wd-vYj">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="km_logo_Chinese" translatesAutoresizingMaskIntoConstraints="NO" id="eR2-sS-ESe">
+                                <rect key="frame" x="522" y="70" width="322" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="136" id="F2k-h6-ofF"/>
+                                    <constraint firstAttribute="width" constant="322" id="euw-Zc-hg8"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXt-Vh-Sfn">
+                                <rect key="frame" x="33" y="926" width="104" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="4Lb-Rd-o12"/>
+                                    <constraint firstAttribute="width" constant="104" id="ZjX-z6-HSo"/>
+                                </constraints>
+                                <state key="normal" title=" 帮助" image="guid"/>
+                                <connections>
+                                    <action selector="helpButtonClick:" destination="PAX-0K-aGM" eventType="touchUpInside" id="0C4-2f-fkl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhp-Ep-Ah6">
+                                <rect key="frame" x="1209" y="926" width="104" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="E1G-RH-iek"/>
+                                    <constraint firstAttribute="width" constant="104" id="Rm8-md-Euq"/>
+                                </constraints>
+                                <state key="normal" title=" 退出" image="signout"/>
+                                <connections>
+                                    <action selector="loginOutButtonClick:" destination="PAX-0K-aGM" eventType="touchUpInside" id="gPO-Wb-0oB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aii-UI-7P5">
+                                <rect key="frame" x="328" y="306" width="300" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="JNp-e9-ZU4"/>
+                                    <constraint firstAttribute="width" constant="300" id="yl7-yb-0rN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="55" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="健康检测" backgroundImage="physical">
+                                    <color key="titleColor" red="0.4581849093" green="0.32402763690000003" blue="0.16450175919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="entrance_1_Click:" destination="PAX-0K-aGM" eventType="touchUpInside" id="DwN-b3-Jvg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyM-66-HMS">
+                                <rect key="frame" x="738" y="306" width="300" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="QDH-nc-4pP"/>
+                                    <constraint firstAttribute="height" constant="180" id="l4F-bi-siy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="60" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="网络会诊" backgroundImage="onlinehospital">
+                                    <color key="titleColor" red="0.093737699650000006" green="0.33761738990000001" blue="0.28324705189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="entrance_2_Click:" destination="PAX-0K-aGM" eventType="touchUpInside" id="K92-qz-ZLy"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="du4-i6-obI">
+                                <rect key="frame" x="678" y="306" width="10" height="228"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="OJJ-kf-kUx"/>
+                                    <constraint firstAttribute="height" constant="228" id="hXF-CT-tdl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.26990963540000001" green="0.75385436139999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xyM-66-HMS" firstAttribute="top" secondItem="du4-i6-obI" secondAttribute="top" id="1g1-HY-ASY"/>
+                            <constraint firstItem="CCY-LB-pgJ" firstAttribute="top" secondItem="eXt-Vh-Sfn" secondAttribute="bottom" constant="50" id="3Fr-Go-NMz"/>
+                            <constraint firstItem="eXt-Vh-Sfn" firstAttribute="leading" secondItem="4MW-Wd-vYj" secondAttribute="leading" constant="33" id="5JH-ar-A95"/>
+                            <constraint firstItem="du4-i6-obI" firstAttribute="leading" secondItem="aii-UI-7P5" secondAttribute="trailing" constant="50" id="901-bH-lCE"/>
+                            <constraint firstItem="aii-UI-7P5" firstAttribute="top" secondItem="du4-i6-obI" secondAttribute="top" id="A9E-Bq-KiY"/>
+                            <constraint firstItem="eR2-sS-ESe" firstAttribute="centerX" secondItem="4MW-Wd-vYj" secondAttribute="centerX" id="EEd-JR-EYp"/>
+                            <constraint firstItem="eR2-sS-ESe" firstAttribute="top" secondItem="wKI-D2-JKm" secondAttribute="bottom" constant="50" id="G6d-Ow-YVP"/>
+                            <constraint firstItem="du4-i6-obI" firstAttribute="centerX" secondItem="4MW-Wd-vYj" secondAttribute="centerX" id="N7N-fB-7fw"/>
+                            <constraint firstItem="xyM-66-HMS" firstAttribute="leading" secondItem="du4-i6-obI" secondAttribute="trailing" constant="50" id="bcr-G9-fbD"/>
+                            <constraint firstItem="CCY-LB-pgJ" firstAttribute="top" secondItem="yhp-Ep-Ah6" secondAttribute="bottom" constant="50" id="bde-eE-HlQ"/>
+                            <constraint firstItem="du4-i6-obI" firstAttribute="top" secondItem="eR2-sS-ESe" secondAttribute="bottom" constant="100" id="kre-Z3-YRK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yhp-Ep-Ah6" secondAttribute="trailing" constant="33" id="uV3-Y3-VHY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBA-27-uox" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-263" y="-243"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="guid" width="28" height="24"/>
+        <image name="km_logo_Chinese" width="161" height="68"/>
+        <image name="onlinehospital" width="374" height="228"/>
+        <image name="physical" width="374" height="228"/>
+        <image name="signout" width="28" height="24"/>
+    </resources>
+</document>

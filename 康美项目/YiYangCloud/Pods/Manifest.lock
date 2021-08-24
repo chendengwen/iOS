@@ -1,0 +1,129 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.4.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - BarcodeScanner (2.0.0)
+  - DGElasticPullToRefresh (1.1)
+  - ESPullToRefresh (2.6)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HandyJSON (1.8.0)
+  - IQKeyboardManager (4.0.9)
+  - JTAppleCalendar (6.1.6)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - PNChart (0.8.9):
+    - UICountingLabel (~> 1.2.0)
+  - ReactiveCocoa (5.0.4):
+    - ReactiveSwift (~> 1.1)
+  - ReactiveSwift (1.1.5):
+    - Result (~> 3.2)
+  - Result (3.2.4)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (3.2.0)
+  - SVProgressHUD (2.1.2)
+  - UICountingLabel (1.2.0)
+  - WLRRoute (0.0.9)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - Alamofire (~> 4.4)
+  - AlamofireImage
+  - BarcodeScanner (~> 2.0.0)
+  - DGElasticPullToRefresh (~> 1.1)
+  - ESPullToRefresh
+  - FMDB
+  - HandyJSON (~> 1.8.0)
+  - IQKeyboardManager
+  - JTAppleCalendar (~> 6.0)
+  - Masonry (~> 1.0.2)
+  - MJRefresh (~> 3.1.12)
+  - NJKWebViewProgress (~> 0.2.3)
+  - PNChart (~> 0.8.9)
+  - ReactiveCocoa (~> 5.0.0)
+  - SDWebImage (~> 3.8.2)
+  - SnapKit (~> 3.2.0)
+  - SVProgressHUD
+  - WLRRoute
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Alamofire
+    - AlamofireImage
+    - BarcodeScanner
+    - DGElasticPullToRefresh
+    - ESPullToRefresh
+    - FMDB
+    - HandyJSON
+    - IQKeyboardManager
+    - JTAppleCalendar
+    - Masonry
+    - MJRefresh
+    - NJKWebViewProgress
+    - PNChart
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Result
+    - SDWebImage
+    - SnapKit
+    - SVProgressHUD
+    - UICountingLabel
+    - WLRRoute
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  BarcodeScanner: 266ab4b479d407b74bc4b473fa5020b4523ad9e3
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  ESPullToRefresh: 85f4990acf87f78c6a1466bbbee7a75d7de24db9
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HandyJSON: edaaa3278bf4c4c96d6f7382b80d6b91c88d3bf5
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  JTAppleCalendar: 560fb46421880f53ad54123295072de24bca2b18
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
+  ReactiveCocoa: b31e754d15937811ede648fc83cd68f5de70a3d4
+  ReactiveSwift: 3fea31f8fc49f112d2dc613282c5d395c4d167bb
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  WLRRoute: 51b41cf28d4b3fae549b67e437157556cf10dc00
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 453bc7d20426cb7845a37009148542b7de2da050
+
+COCOAPODS: 1.5.2

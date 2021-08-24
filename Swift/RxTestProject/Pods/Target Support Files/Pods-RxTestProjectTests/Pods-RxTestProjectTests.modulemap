@@ -1,0 +1,6 @@
+framework module Pods_RxTestProjectTests {
+  umbrella header "Pods-RxTestProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

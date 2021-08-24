@@ -1,0 +1,242 @@
+html {
+    min-height: 100%;
+}
+
+#top_tab li a:focus, #top_tab  li a.tablinks.active {
+	border-bottom: 3px solidorgan_man_front_head #6CCC56;
+	//border-image: -webkit-linear-gradient(left, #29CCBF, #6CCC56) 0 0 1 0;	
+}
+
+#top_tab li+li{
+	border-left: 1px solid #F1F1F1;
+}
+
+/**/
+ul.tab li { 
+    float: left;
+    width: 50%;
+    text-align: center;
+   
+    background-color: #fff;
+}
+
+ul.left-tab {
+	width:2rem	
+	
+}
+
+#sick_list{
+	padding: 0;
+}
+
+
+ul.left-tab  {
+	width:2.7rem;
+	background-color: #F0F0F0;
+
+}
+
+ul.left-tab  li  {
+   
+	padding:.3rem .3rem .2rem .65rem;
+	
+}
+
+
+ul.left-tab  li a {
+    font-size: .3rem;
+	color:#9B9B9B;
+}
+
+
+
+/*症状列表*/
+
+#sick_list {
+    background-color: #f1f1f1;
+}
+
+#sick_list  .tabcontent {
+	display: block;
+}
+
+
+.left-wrap {
+    float: left;
+    width: 2.7rem;
+}
+
+
+.right-wrap {
+    margin-left: 2.7rem;
+    min-height: 10rem;
+  	overflow: hidden;
+    background-color: #fff;
+}
+
+
+
+.left-wrap  ul li{
+	position: relative;
+    background: #F1F1F1;
+    padding:.3rem .3rem .2rem .65rem;
+    
+}
+
+.left-wrap ul li a {
+	font-size: .3rem;
+	color:#6d6e70;
+	
+}
+
+
+
+.right-wrap ul li a {
+	font-size: .3rem;
+	color: #363636;
+	
+}
+.right-wrap ul li {
+	    padding:.3rem .3rem .2rem .65rem;
+}
+
+
+
+.tablinks.active{
+	/*color:#6CCC56;*/
+	color: #6CCC56;
+	 background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#29CCBF), to(#6CCC56));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	
+}
+
+
+.sickContent {
+	display: none;
+}
+
+.sickContent.active{
+	display: block;
+}
+
+
+.left-wrap li.active {
+	background-color: #fff;
+	border-right:1px solid #F1F1F1 ;
+}
+
+.left-wrap li.active:before{
+    position: absolute;
+    left: 0;
+    top: .15rem;
+    display: table;
+    content: " ";
+    width: .05rem;
+    height: .7rem;
+    background: #6CCC56;
+}
+
+
+
+
+
+/*性别切换按钮*/
+#body_pic{
+    position: relative;
+    padding: .2rem 0rem;
+    min-height: 100%;
+}
+
+
+.tab-sex {
+	position: absolute;
+	display: inline-block;
+    top: .5rem;
+    left: .3rem;
+    z-index: 10000;
+}
+.tab-sex .sex-btn{
+	padding: .1rem .15rem;
+	font-size: .35rem;
+	color:#ccc;
+	font-weight: 400;
+	
+}
+
+.tab-sex .sex-btn.active{
+	color:#6CCC56;
+	 background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#29CCBF), to(#6CCC56));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tab-sex .mid-line{
+	position: relative;
+	display: inline-block;
+	width: 2px;
+	height: .3rem;
+	background-color: #ccc;
+	top: .05rem;
+}
+
+
+img.people-img {
+    width: 100%
+}
+
+.box-people {
+	display: none;
+    text-align: center;
+    
+}
+
+.box-people.active {
+	display: block;
+    
+}
+
+.turn {
+	position: absolute;
+	display: inline-block;
+	right: .8rem;
+	top: 7rem;
+	width: .81rem;
+	height: .81rem;
+	overflow: hidden;
+	background: url(../image/icon-zwzd-qh.png) no-repeat;
+	background-size: .8rem .8rem;
+	background-position: 50% 50%;
+	z-index: 10000;
+}
+
+
+
+/*男女部位图*/
+.wrap-canvas{
+	position: relative;
+}
+
+#cavas_man_front,#cavas_man_back,#cavas_girl_front,#cavas_girl_back{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+#cavas_man_back{
+	position: absolute;
+    top: -0.3rem;
+    left: 0;
+    z-index: 1000;
+	
+}
+
+
+
+
+
+
+
+ 

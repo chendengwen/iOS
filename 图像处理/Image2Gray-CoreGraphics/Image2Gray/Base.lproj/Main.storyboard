@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idcard.png" translatesAutoresizingMaskIntoConstraints="NO" id="c3e-xZ-d3C">
+                                <rect key="frame" x="116.5" y="64" width="181" height="126"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="1x1-zS-BXk"/>
+                                    <constraint firstAttribute="width" constant="181" id="8nd-ZF-xoY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZFT-R2-usZ">
+                                <rect key="frame" x="57" y="249" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="0or-2H-fGn"/>
+                                    <constraint firstAttribute="width" constant="300" id="kIo-sO-RVn"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="aF5-ru-1da">
+                                <rect key="frame" x="55" y="545" width="304" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="slideBarValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="mYg-9F-yaO"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYp-jx-jH1">
+                                <rect key="frame" x="65" y="674" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="灰度">
+                                    <color key="titleShadowColor" red="0.0039215686269999999" green="0.50980392159999999" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="grayButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LIS-eF-LJV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1OE-dL-27k">
+                                <rect key="frame" x="151" y="674" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="二值化">
+                                    <color key="titleShadowColor" red="0.0039215686269999999" green="0.50980392159999999" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="covertToGrayImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ulD-Sf-HHK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZFT-R2-usZ" firstAttribute="top" secondItem="c3e-xZ-d3C" secondAttribute="bottom" constant="59" id="8Uh-6k-zSR"/>
+                            <constraint firstItem="ZFT-R2-usZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AEb-Tw-eKR"/>
+                            <constraint firstItem="c3e-xZ-d3C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gu2-QE-1Ia"/>
+                            <constraint firstItem="c3e-xZ-d3C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="i5Z-oV-Rif"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="ZFT-R2-usZ" id="1rt-ag-hhi"/>
+                        <outlet property="slideBar" destination="aF5-ru-1da" id="NvJ-td-6e9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="idcard.png" width="481" height="305"/>
+    </resources>
+</document>

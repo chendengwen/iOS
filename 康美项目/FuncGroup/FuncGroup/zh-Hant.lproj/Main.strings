@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "健康检测"; ObjectID = "aii-UI-7P5"; */
+"aii-UI-7P5.normalTitle" = "健康检测";
+
+/* Class = "UIButton"; normalTitle = " 帮助"; ObjectID = "eXt-Vh-Sfn"; */
+"eXt-Vh-Sfn.normalTitle" = " 帮助";
+
+/* Class = "UIButton"; normalTitle = "网络会诊"; ObjectID = "xyM-66-HMS"; */
+"xyM-66-HMS.normalTitle" = "网络会诊";
+
+/* Class = "UIButton"; normalTitle = " 退出"; ObjectID = "yhp-Ep-Ah6"; */
+"yhp-Ep-Ah6.normalTitle" = " 退出";

@@ -1,0 +1,46 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+project 'YiYangCloud/YiYangCloud.xcodeproj'
+
+target 'YiYangCloud' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for FuncGroup
+  pod 'SVProgressHUD'
+  pod 'Masonry', '~> 1.0.2'
+  #pod 'BabyBluetooth', '~> 0.7.0'
+  pod 'SDWebImage', '~> 3.8.2'
+  pod 'AFNetworking', '~> 3.1.0'
+  pod 'PNChart', '~> 0.8.9'
+  pod 'MJRefresh', '~> 3.1.12'
+  pod 'YYKit'
+  pod 'IQKeyboardManager'
+  pod 'FMDB'
+  pod 'Alamofire', '~> 4.4'
+  pod 'AlamofireImage'
+  pod 'HandyJSON', '~> 1.8.0'
+  pod 'WLRRoute'
+  pod 'SnapKit', '~> 3.2.0'
+  pod 'ReactiveCocoa', '~> 5.0.0'
+  pod 'JTAppleCalendar', '~> 6.0'
+  pod 'BarcodeScanner', '~> 2.0.0'
+  pod 'DGElasticPullToRefresh', '~> 1.1'
+  pod 'ESPullToRefresh'
+  pod 'NJKWebViewProgress', '~> 0.2.3'
+  #pod 'PYSearch'
+  
+  target 'YiYangCloudTests' do
+    # inherit! :search_pathsz require
+    # Pods for testing
+  end
+
+  target 'YiYangCloudUITests' do
+    # inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+

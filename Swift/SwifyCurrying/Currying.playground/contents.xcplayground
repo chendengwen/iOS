@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='1. Cover'/>
+        <page name='2. Definition'/>
+        <page name='3. MyDef'/>
+        <page name='4. ☝️🌰'/>
+        <page name='5. Example add'/>
+        <page name='6. Partial application'/>
+        <page name='7. 🐣'/>
+        <page name='8. Example log'/>
+        <page name='9. TypeCurrying'/>
+        <page name='10. Example TypeCurrying'/>
+        <page name='11. MorePractiseExample'/>
+        <page name='12. Magic'/>
+        <page name='13. Prepare'/>
+        <page name='14. NormalApproach'/>
+        <page name='15. MagicApproach'/>
+        <page name='16. GenericCurry'/>
+        <page name='17. CurryUserInit'/>
+        <page name='18. JSON'/>
+        <page name='19. FirstTry'/>
+        <page name='20. Optional'/>
+        <page name='21. FMap, Apply'/>
+        <page name='22. Example Operator'/>
+        <page name='23. Final'/>
+        <page name='24. Either'/>
+        <page name='25. Backcover'/>
+    </pages>
+</playground>

@@ -1,0 +1,218 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>人体图</title>
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes" /> -->
+		<meta name="format-detection" content="telephone=no" />
+		<script src="./js/flexible.js"></script>
+		<script src="./js/zepto.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="./css/app.css"/>
+		<link rel="stylesheet" href="./css/ui.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link rel="stylesheet" href="./css/body.css" />
+	</head>
+	
+<body style="font-size: 12px;">
+	<ul id="top_tab" class="tab">
+	  <li><a href="www.baidu.com" class="tablinks active" onclick="openTab(event, 'body_pic');return false">人体图</a></li>
+	  <li><a href="www.baidu.com" id="symp_list_a" class="tablinks" onclick="openTab(event, 'sick_list');return false">症状列表</a></li>
+	</ul>
+	
+	<!--人体图-->
+	
+	<div id="body_pic" class="tabcontent" style="display: block;" >
+		<div class="tab-sex">
+			<span class="sex-btn active">男</span>
+			<span class="mid-line"></span>
+			<span class="sex-btn">女</span>
+		</div>
+		
+			<!--男人正面-->
+		<div id="man_front" class="box-people active ">
+			<div id="wrap_cavas_man_front" class="wrap-canvas">
+				<span id="all_man_front"></span>
+				<canvas id="cavas_man_front" ></canvas>
+				<div id="man_front_head" class="item_imgs_man_front"></div>
+				<div id="man_front_neck" class="item_imgs_man_front"></div>
+				<div id="man_front_left_hand" class="item_imgs_man_front"></div>
+				<div id="man_front_right_hand" class="item_imgs_man_front"></div>
+				<div id="man_front_chest" class="item_imgs_man_front"></div>
+				<div id="man_front_belly" class="item_imgs_man_front"></div>
+				<div id="man_front_sex" class="item_imgs_man_front"></div>
+				<div id="man_front_foot" class="item_imgs_man_front"></div>
+				<!--<div id="man_front_right_foot" class="item_imgs_man_front"></div>-->
+			</div>
+		</div>
+		
+		<!--男人背部-->
+		<div id="man_back" class="box-people">
+			<div id="wrap_cavas_man_back" class="wrap-canvas">
+				<span id="all_man_back"></span>
+				<canvas id="cavas_man_back"  ></canvas>
+				<div id="man_back_head" class="item_imgs_man_back"></div>
+				<div id="man_back_neck" class="item_imgs_man_back"></div>
+				<div id="man_back_left_hand" class="item_imgs_man_back"></div>
+				<div id="man_back_right_hand" class="item_imgs_man_back"></div>
+				<div id="man_back_back" class="item_imgs_man_back"></div>
+				<div id="man_back_waist" class="item_imgs_man_back"></div>
+				<div id="man_back_hip" class="item_imgs_man_back"></div>
+				<div id="man_back_foot" class="item_imgs_man_back"></div>
+			</div>
+		</div>
+		
+		<!--女人正面-->
+		<div id="girl_front" class="box-people">
+			<div id="wrap_cavas_girl_front" class="wrap-canvas">
+				<span id="all_girl_front"></span>
+				<canvas id="cavas_girl_front"  ></canvas>
+				<div id="girl_front_head" class="item_imgs_girl_front"></div>
+				<div id="girl_front_neck" class="item_imgs_girl_front"></div>
+				<div id="girl_front_left_hand" class="item_imgs_girl_front"></div>
+				<div id="girl_front_right_hand" class="item_imgs_girl_front"></div>
+				<div id="girl_front_chest" class="item_imgs_girl_front"></div>
+				<div id="girl_front_belly" class="item_imgs_girl_front"></div>
+				<div id="girl_front_sex" class="item_imgs_girl_front"></div>
+				<div id="girl_front_foot" class="item_imgs_girl_front"></div>
+			</div>
+		</div>
+		
+		<!--女人背面-->
+		<div id="girl_back" class="box-people">
+			<div id="wrap_cavas_girl_back" class="wrap-canvas">
+				<span id="all_girl_back"></span>
+				<canvas id="cavas_girl_back"  ></canvas>
+				<div id="girl_back_head" class="item_imgs_girl_back"></div>
+				<div id="girl_back_neck" class="item_imgs_girl_back"></div>
+				<div id="girl_back_left_hand" class="item_imgs_girl_back"></div>
+				<div id="girl_back_right_hand" class="item_imgs_girl_back"></div>
+				<div id="girl_back_back" class="item_imgs_girl_back"></div>
+				<div id="girl_back_waist" class="item_imgs_girl_back"></div>
+				<div id="girl_back_hip" class="item_imgs_girl_back"></div>
+				<div id="girl_back_foot" class="item_imgs_girl_back"></div>
+			</div>
+		</div>
+		
+		
+		<div class="turn">
+		</div>
+	</div>
+	
+	
+	<!--疾病列表-->
+	<div id="sick_list" class="tabcontent " >
+		<div class="left-wrap" id="left_wrapper">
+			<ul class="">
+				  <li class="active"><a href="javascript:void(0);" class="tablinks active" link="symp_body">全身症状</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_skin">皮肤症状</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_mouth">口腔</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_eye">眼睛</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_nose">鼻子</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_ear">耳朵</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_head">头部</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_throat">咽喉</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_spine">颈椎</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_lung">肺</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_heart">心脏</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_respiratory">呼吸道</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_liver">肝</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_stomach">胃</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_intestines">肠</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_kidney">肾</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_chest">胸部</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_back">背部</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_waist">腰腹部</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_hand">上肢</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_foot">下肢</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_excrete">排泄部</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_man_sex">男性生殖</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_girl_sex">女性生殖</a></li>
+			      <li><a href="javascript:void(0);" class="tablinks" link="symp_bladder">膀胱</a></li>
+		    </ul>
+		</div>
+
+		<!--具体症状列表-->
+		<div class="right-wrap" id="right_wrapper">
+			<div id="right_content">
+			</div>
+		</div>
+	</div>
+	<!--器官切图-->
+	<div id="pic" class="tabcontent active" style="display: none;">
+		<div class="returnBtn"></div>
+		<div id="organ_man_front_head" class="organ" style="display: block;">
+			<span id="organItem_man_front_head" class="organ_item">头部</span>
+			<span id="organItem_man_front_eye" class="organ_item">眼</span>
+			<span id="organItem_man_front_nose" class="organ_item">鼻</span>
+			<span id="organItem_man_front_ear" class="organ_item">耳朵</span>
+			<span id="organItem_man_front_mouth" class="organ_item">口腔</span>
+			<span id="organItem_man_front_throat" class="organ_item">咽喉</span>
+			<span id="organItem_man_front_spine" class="organ_item">颈椎</span>
+		</div>
+		
+		<div id="organ_man_front_body" class="organ" style="display:none;" >
+			<span id="organItem_man_front_respiratory" class="organ_item">呼吸道</span>
+			<span id="organItem_man_front_lung" class="organ_item">肺</span>
+			<span id="organItem_man_front_chest" class="organ_item">胸</span>
+			<span id="organItem_man_front_heart" class="organ_item">心脏</span>
+			<span id="organItem_man_front_liver" class="organ_item">肝</span>
+			<span id="organItem_man_front_stomach" class="organ_item">胃</span>
+			<span id="organItem_man_front_kidney" class="organ_item">肾</span>
+			<span id="organItem_man_front_waist" class="organ_item">腰腹部</span>
+			<span id="organItem_man_front_intestines" class="organ_item">肠</span>
+		</div>
+		
+		<div id="organ_man_front_sex" class="organ" style="display: none;">
+			<span id="organItem_man_front_bladder" class="organ_item">膀胱</span>               
+			<span id="organItem_man_front_genitals" class="organ_item">生殖器</span>               
+		</div>
+		
+		
+		<!--女性-->
+		<div id="organ_girl_front_head" class="organ" style="display: none;">
+			<span id="organItem_girl_front_head" class="organ_item" >头部</span>
+			<span id="organItem_girl_front_eye" class="organ_item">眼</span>
+			<span id="organItem_girl_front_nose" class="organ_item">鼻</span>
+			<span id="organItem_girl_front_ear" class="organ_item">耳朵</span>
+			<span id="organItem_girl_front_mouth" class="organ_item">口腔</span>
+			<span id="organItem_girl_front_throat" class="organ_item">咽喉</span>
+			<span id="organItem_girl_front_spine" class="organ_item">颈椎</span>
+		</div>
+		
+		<div id="organ_girl_front_body" class="organ" style="display:none;" >
+			<span id="organItem_girl_front_respiratory" class="organ_item">呼吸道</span>
+			<span id="organItem_girl_front_lung" class="organ_item">肺</span>
+			<span id="organItem_girl_front_chest" class="organ_item">胸</span>
+			<span id="organItem_girl_front_heart" class="organ_item">心脏</span>
+			<span id="organItem_girl_front_liver" class="organ_item">肝</span>
+			<span id="organItem_girl_front_stomach" class="organ_item">胃</span>
+			<span id="organItem_girl_front_kidney" class="organ_item">肾</span>
+			<span id="organItem_girl_front_waist" class="organ_item">腰腹部</span>
+			<span id="organItem_girl_front_intestines" class="organ_item">肠</span>
+		</div>
+		
+		<div id="organ_girl_front_sex" class="organ" style="display: none;">
+			<span id="organItem_girl_front_bladder" class="organ_item">膀胱</span>               
+			<span id="organItem_girl_front_genitals" class="organ_item">生殖器</span>               
+		</div>
+	
+	</div>
+
+	<!--图片缓存区-->
+		
+	</div>
+	<div style="display: none">
+		<img src="./image/man_front.png" alt="" style="display: none;" />
+		
+		<link rel="stylesheet" href="./css/organ.css" />
+		<img src="./image/girl_f-min.png" alt="" style="display: none;" />
+		<img src="./image/man_back.png" alt="" style="display: none;" />
+		<img src="./image/girl_back.png" alt="" style="display: none;" />
+		
+	</div>
+</body>
+   <script src="./js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+   <script src="./js/index.js" type="text/javascript" charset="utf-8"></script>
+ 
+
+</html>

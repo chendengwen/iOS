@@ -1,0 +1,102 @@
+PODS:
+  - Alamofire (4.9.1)
+  - EmptyDataSet-Swift (5.0.0)
+  - HandyJSON (5.0.1)
+  - IQKeyboardManagerSwift (6.5.2)
+  - Kingfisher (4.10.1)
+  - MJRefresh (3.2.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Realm (3.21.0):
+    - Realm/Headers (= 3.21.0)
+  - Realm/Headers (3.21.0)
+  - RealmSwift (3.21.0):
+    - Realm (= 3.21.0)
+  - Result (4.1.0)
+  - Reusable (4.1.0):
+    - Reusable/Storyboard (= 4.1.0)
+    - Reusable/View (= 4.1.0)
+  - Reusable/Storyboard (4.1.0)
+  - Reusable/View (4.1.0)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.3.0):
+    - SDWebImage/Core (= 5.3.0)
+  - SDWebImage/Core (5.3.0)
+  - SkyFloatingLabelTextField (3.7.0)
+  - SnapKit (4.2.0)
+  - SnapKitExtend (1.0.7):
+    - SnapKit
+  - SVProgressHUD (2.2.5)
+  - SwiftRichString (3.0.3)
+  - Then (2.6.0)
+  - UINavigation-SXFixSpace (1.2.4)
+
+DEPENDENCIES:
+  - EmptyDataSet-Swift
+  - HandyJSON
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MJRefresh
+  - Moya
+  - RealmSwift
+  - Reusable
+  - SDCycleScrollView
+  - SkyFloatingLabelTextField
+  - SnapKitExtend
+  - SVProgressHUD
+  - SwiftRichString
+  - Then
+  - UINavigation-SXFixSpace
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - EmptyDataSet-Swift
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - Realm
+    - RealmSwift
+    - Result
+    - Reusable
+    - SDCycleScrollView
+    - SDWebImage
+    - SkyFloatingLabelTextField
+    - SnapKit
+    - SnapKitExtend
+    - SVProgressHUD
+    - SwiftRichString
+    - Then
+    - UINavigation-SXFixSpace
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  IQKeyboardManagerSwift: c75366f1f19590e8caeae45fcd5815c9289d6099
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Realm: 38e9dcb19104b58407167d99f70d4995f7c16023
+  RealmSwift: 3183cc1ad48378fbcd634311b22c0e6c44021152
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: f1afa74b86587c2c63f4e80dfd39b21e3c17b45b
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SnapKitExtend: 00ee4db6d1f80bee01a1e75745f2a6ae695ba662
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftRichString: 2aea7d0761f77f6ef234f6028cde761d7eef40e6
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+  UINavigation-SXFixSpace: 10f223253ebff2ceefa26694e23b7694269763c4
+
+PODFILE CHECKSUM: 5116e8db5ceea09fb850ee84cbe0f08936a7adb6
+
+COCOAPODS: 1.7.0

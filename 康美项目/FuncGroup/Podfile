@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '8.0'
+
+project 'FuncGroup.xcodeproj'
+
+target 'FuncGroup' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  
+  # Pods for FuncGroup
+  pod 'SVProgressHUD', '~> 2.0.3'
+  pod 'Masonry', '~> 1.0.2'
+  pod 'BabyBluetooth', '~> 0.7.0'
+  pod 'SDWebImage', '~> 3.8.2'
+  pod 'AFNetworking', '~> 3.1.0'
+  pod 'PNChart', '~> 0.8.9'
+  pod 'MJRefresh', '~> 3.1.12'
+  pod 'YYKit', '~> 1.0.7'
+  pod 'IQKeyboardManager'
+  pod 'FMDB'
+  
+  target 'FuncGroupTests' do
+    # inherit! :search_pathsz require
+    # Pods for testing
+  end
+
+  target 'FuncGroupUITests' do
+    # inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+

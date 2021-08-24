@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+                content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta name="format-detection" content="telephone=no"/>
+        
+            <title>系统提示</title>
+            
+            <script language="javascript">
+                function dismissSelf() {
+                    /*dismissView();*/
+                    window.webkit.messageHandlers.dismissView.postMessage("11111");
+                }
+            </script>
+            
+            <style type="text/css">
+                .title {
+                    padding:0 auto;
+                    height: 21px;
+                }
+            
+            h4 {
+                color: #434343;
+                font-weight: normal;
+                /*font-size: 17px;*/
+                text-align: center;
+                margin: 0;
+            }
+            
+            .content {
+                color: #333;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            
+            span {
+                color: #f78600;
+            }
+            
+            .botton {
+                padding:0 auto;
+                text-align: center;
+            }
+            
+            input {
+                appearance: none;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                
+                width: 80px;
+                height: 30px;
+                background: #21ADF3;
+                font-weight: normal;
+                font-size: 16px;
+                color: white;
+                border:none;
+                border-radius: 4px;
+            }
+            
+            hr {
+                border:none;
+                height: 5px;
+                border-top:1px solid #c3c3c3;
+            }
+            
+                </style>
+    </head>
+    <body>
+        
+        <div class="title"><h4>系统提示</h4></div>
+        <hr>
+        <div class="content">
+            亲，使用健康家+APP前，请确认三个操作：<br>&nbsp&nbsp1.请确认平板蓝牙未开启状态(<span>设置-蓝牙</span>)；<br>&nbsp&nbsp2.请确认平板时间为当前时间(<span>设置-通用-时间与日期</span>)；<br>&nbsp&nbsp&nbsp&nbsp2.1 在连接网络下，请选者莪使用网络提供时间；<br>&nbsp&nbsp&nbsp&nbsp2.2 在无网络连接下，请收到设置时间与日期；<br>&nbsp&nbsp3.有网络请连接Wi-Fi使用(<span>设置-Wi-Fi</span>)；
+            
+            </div>
+            <hr>
+            <div class="botton">
+            <input type="button" value="知道了" onclick="dismissSelf()">
+            </div>
+            
+            </body>
+            </html>

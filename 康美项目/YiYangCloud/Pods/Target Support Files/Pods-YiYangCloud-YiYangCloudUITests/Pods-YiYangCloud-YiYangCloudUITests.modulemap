@@ -1,0 +1,6 @@
+framework module Pods_YiYangCloud_YiYangCloudUITests {
+  umbrella header "Pods-YiYangCloud-YiYangCloudUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

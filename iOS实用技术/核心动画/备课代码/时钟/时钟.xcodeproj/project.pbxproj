@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5ADBE319BA06A300421A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5ADBE219BA06A300421A38 /* Foundation.framework */; };
+		EC5ADBE519BA06A300421A38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5ADBE419BA06A300421A38 /* CoreGraphics.framework */; };
+		EC5ADBE719BA06A300421A38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5ADBE619BA06A300421A38 /* UIKit.framework */; };
+		EC5ADBED19BA06A300421A38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5ADBEB19BA06A300421A38 /* InfoPlist.strings */; };
+		EC5ADBEF19BA06A300421A38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ADBEE19BA06A300421A38 /* main.m */; };
+		EC5ADBF319BA06A300421A38 /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ADBF219BA06A300421A38 /* HMAppDelegate.m */; };
+		EC5ADBF619BA06A300421A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5ADBF419BA06A300421A38 /* Main.storyboard */; };
+		EC5ADBF919BA06A300421A38 /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ADBF819BA06A300421A38 /* HMViewController.m */; };
+		EC5ADBFB19BA06A300421A38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5ADBFA19BA06A300421A38 /* Images.xcassets */; };
+		EC5ADC0219BA06A300421A38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5ADC0119BA06A300421A38 /* XCTest.framework */; };
+		EC5ADC0319BA06A300421A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5ADBE219BA06A300421A38 /* Foundation.framework */; };
+		EC5ADC0419BA06A300421A38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5ADBE619BA06A300421A38 /* UIKit.framework */; };
+		EC5ADC0C19BA06A300421A38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5ADC0A19BA06A300421A38 /* InfoPlist.strings */; };
+		EC5ADC0E19BA06A300421A38 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5ADC0D19BA06A300421A38 /* __Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5ADC0519BA06A300421A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5ADBD719BA06A300421A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5ADBDE19BA06A300421A38;
+			remoteInfo = "时钟";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5ADBDF19BA06A300421A38 /* 时钟.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "时钟.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5ADBE219BA06A300421A38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC5ADBE419BA06A300421A38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC5ADBE619BA06A300421A38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC5ADBEA19BA06A300421A38 /* 时钟-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "时钟-Info.plist"; sourceTree = "<group>"; };
+		EC5ADBEC19BA06A300421A38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC5ADBEE19BA06A300421A38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC5ADBF019BA06A300421A38 /* 时钟-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "时钟-Prefix.pch"; sourceTree = "<group>"; };
+		EC5ADBF119BA06A300421A38 /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
+		EC5ADBF219BA06A300421A38 /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
+		EC5ADBF519BA06A300421A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5ADBF719BA06A300421A38 /* HMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		EC5ADBF819BA06A300421A38 /* HMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+		EC5ADBFA19BA06A300421A38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC5ADC0019BA06A300421A38 /* 时钟Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "时钟Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5ADC0119BA06A300421A38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC5ADC0919BA06A300421A38 /* 时钟Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "时钟Tests-Info.plist"; sourceTree = "<group>"; };
+		EC5ADC0B19BA06A300421A38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC5ADC0D19BA06A300421A38 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5ADBDC19BA06A300421A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5ADBE519BA06A300421A38 /* CoreGraphics.framework in Frameworks */,
+				EC5ADBE719BA06A300421A38 /* UIKit.framework in Frameworks */,
+				EC5ADBE319BA06A300421A38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5ADBFD19BA06A300421A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5ADC0219BA06A300421A38 /* XCTest.framework in Frameworks */,
+				EC5ADC0419BA06A300421A38 /* UIKit.framework in Frameworks */,
+				EC5ADC0319BA06A300421A38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5ADBD619BA06A300421A38 = {
+			isa = PBXGroup;
+			children = (
+				EC5ADBE819BA06A300421A38 /* 时钟 */,
+				EC5ADC0719BA06A300421A38 /* 时钟Tests */,
+				EC5ADBE119BA06A300421A38 /* Frameworks */,
+				EC5ADBE019BA06A300421A38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5ADBE019BA06A300421A38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5ADBDF19BA06A300421A38 /* 时钟.app */,
+				EC5ADC0019BA06A300421A38 /* 时钟Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5ADBE119BA06A300421A38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5ADBE219BA06A300421A38 /* Foundation.framework */,
+				EC5ADBE419BA06A300421A38 /* CoreGraphics.framework */,
+				EC5ADBE619BA06A300421A38 /* UIKit.framework */,
+				EC5ADC0119BA06A300421A38 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC5ADBE819BA06A300421A38 /* 时钟 */ = {
+			isa = PBXGroup;
+			children = (
+				EC5ADBF119BA06A300421A38 /* HMAppDelegate.h */,
+				EC5ADBF219BA06A300421A38 /* HMAppDelegate.m */,
+				EC5ADBF419BA06A300421A38 /* Main.storyboard */,
+				EC5ADBF719BA06A300421A38 /* HMViewController.h */,
+				EC5ADBF819BA06A300421A38 /* HMViewController.m */,
+				EC5ADBFA19BA06A300421A38 /* Images.xcassets */,
+				EC5ADBE919BA06A300421A38 /* Supporting Files */,
+			);
+			path = "时钟";
+			sourceTree = "<group>";
+		};
+		EC5ADBE919BA06A300421A38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5ADBEA19BA06A300421A38 /* 时钟-Info.plist */,
+				EC5ADBEB19BA06A300421A38 /* InfoPlist.strings */,
+				EC5ADBEE19BA06A300421A38 /* main.m */,
+				EC5ADBF019BA06A300421A38 /* 时钟-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5ADC0719BA06A300421A38 /* 时钟Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5ADC0D19BA06A300421A38 /* __Tests.m */,
+				EC5ADC0819BA06A300421A38 /* Supporting Files */,
+			);
+			path = "时钟Tests";
+			sourceTree = "<group>";
+		};
+		EC5ADC0819BA06A300421A38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5ADC0919BA06A300421A38 /* 时钟Tests-Info.plist */,
+				EC5ADC0A19BA06A300421A38 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5ADBDE19BA06A300421A38 /* 时钟 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5ADC1119BA06A300421A38 /* Build configuration list for PBXNativeTarget "时钟" */;
+			buildPhases = (
+				EC5ADBDB19BA06A300421A38 /* Sources */,
+				EC5ADBDC19BA06A300421A38 /* Frameworks */,
+				EC5ADBDD19BA06A300421A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "时钟";
+			productName = "时钟";
+			productReference = EC5ADBDF19BA06A300421A38 /* 时钟.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5ADBFF19BA06A300421A38 /* 时钟Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5ADC1419BA06A300421A38 /* Build configuration list for PBXNativeTarget "时钟Tests" */;
+			buildPhases = (
+				EC5ADBFC19BA06A300421A38 /* Sources */,
+				EC5ADBFD19BA06A300421A38 /* Frameworks */,
+				EC5ADBFE19BA06A300421A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5ADC0619BA06A300421A38 /* PBXTargetDependency */,
+			);
+			name = "时钟Tests";
+			productName = "时钟Tests";
+			productReference = EC5ADC0019BA06A300421A38 /* 时钟Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5ADBD719BA06A300421A38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iThinker;
+				TargetAttributes = {
+					EC5ADBFF19BA06A300421A38 = {
+						TestTargetID = EC5ADBDE19BA06A300421A38;
+					};
+				};
+			};
+			buildConfigurationList = EC5ADBDA19BA06A300421A38 /* Build configuration list for PBXProject "时钟" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5ADBD619BA06A300421A38;
+			productRefGroup = EC5ADBE019BA06A300421A38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5ADBDE19BA06A300421A38 /* 时钟 */,
+				EC5ADBFF19BA06A300421A38 /* 时钟Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5ADBDD19BA06A300421A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5ADBFB19BA06A300421A38 /* Images.xcassets in Resources */,
+				EC5ADBED19BA06A300421A38 /* InfoPlist.strings in Resources */,
+				EC5ADBF619BA06A300421A38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5ADBFE19BA06A300421A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5ADC0C19BA06A300421A38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5ADBDB19BA06A300421A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5ADBF919BA06A300421A38 /* HMViewController.m in Sources */,
+				EC5ADBEF19BA06A300421A38 /* main.m in Sources */,
+				EC5ADBF319BA06A300421A38 /* HMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5ADBFC19BA06A300421A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5ADC0E19BA06A300421A38 /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5ADC0619BA06A300421A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5ADBDE19BA06A300421A38 /* 时钟 */;
+			targetProxy = EC5ADC0519BA06A300421A38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5ADBEB19BA06A300421A38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5ADBEC19BA06A300421A38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC5ADBF419BA06A300421A38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5ADBF519BA06A300421A38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC5ADC0A19BA06A300421A38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5ADC0B19BA06A300421A38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5ADC0F19BA06A300421A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC5ADC1019BA06A300421A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5ADC1219BA06A300421A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "时钟/时钟-Prefix.pch";
+				INFOPLIST_FILE = "时钟/时钟-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC5ADC1319BA06A300421A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "时钟/时钟-Prefix.pch";
+				INFOPLIST_FILE = "时钟/时钟-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC5ADC1519BA06A300421A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/时钟.app/时钟";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "时钟/时钟-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "时钟Tests/时钟Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC5ADC1619BA06A300421A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/时钟.app/时钟";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "时钟/时钟-Prefix.pch";
+				INFOPLIST_FILE = "时钟Tests/时钟Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5ADBDA19BA06A300421A38 /* Build configuration list for PBXProject "时钟" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5ADC0F19BA06A300421A38 /* Debug */,
+				EC5ADC1019BA06A300421A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5ADC1119BA06A300421A38 /* Build configuration list for PBXNativeTarget "时钟" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5ADC1219BA06A300421A38 /* Debug */,
+				EC5ADC1319BA06A300421A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC5ADC1419BA06A300421A38 /* Build configuration list for PBXNativeTarget "时钟Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5ADC1519BA06A300421A38 /* Debug */,
+				EC5ADC1619BA06A300421A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5ADBD719BA06A300421A38 /* Project object */;
+}

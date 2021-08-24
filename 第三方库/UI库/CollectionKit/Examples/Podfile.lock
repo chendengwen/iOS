@@ -1,0 +1,28 @@
+PODS:
+  - CollectionKit (2.4.0):
+    - CollectionKit/Core (= 2.4.0)
+  - CollectionKit/Core (2.4.0)
+  - CollectionKit/WobbleAnimator (2.4.0):
+    - CollectionKit/Core
+    - YetAnotherAnimationLibrary (~> 1.4.0)
+  - YetAnotherAnimationLibrary (1.4.0)
+
+DEPENDENCIES:
+  - CollectionKit (from `../`)
+  - CollectionKit/WobbleAnimator (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YetAnotherAnimationLibrary
+
+EXTERNAL SOURCES:
+  CollectionKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CollectionKit: 8f01e7629185bb81072c4aa734d105df5c2d1c8b
+  YetAnotherAnimationLibrary: 7f808b10c2d193dd3e82407e722fa60aa0bdff2d
+
+PODFILE CHECKSUM: ebee1e253f63ed2523d8c23e296d4f3f5c625a3d
+
+COCOAPODS: 1.7.0
