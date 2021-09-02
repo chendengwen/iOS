@@ -28,14 +28,14 @@ extension LXFNetworkTool: TargetType {
     
     /// The target's base `URL`.
     var baseURL: URL {
-        return URL(string: "http://gank.io/api/data/")!
+        return URL(string: "https://gank.io/api/v2/data/category/GanHuo/type/")!
     }
     
     /// The path to be appended to `baseURL` to form the full `URL`.
     var path: String {
         switch self {
         case .data(let type, let size, let index):
-            return "\(type.rawValue)/\(size)/\(index)"
+            return "\(type.rawValue)/page/\(index)/count/\(size)"
         }
     }
     

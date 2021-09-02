@@ -27,9 +27,9 @@ class LXFViewController: UIViewController {
     }
     let dataSource = RxTableViewSectionedReloadDataSource<LXFSection>(configureCell: { ds, tv, ip, item in
         let cell = tv.dequeueReusableCell(for: ip) as LXFViewCell
-        cell.picView.kf.setImage(with: URL(string: item.url))
+        cell.picView.kf.setImage(with: URL(string: item.images?.first ?? ""))
         cell.descLabel.text = "描述: \(item.desc)"
-        cell.sourceLabel.text = "来源: \(item.source)"
+        cell.sourceLabel.text = "title: \(item.title)"
         return cell
     })
     var vmOutput : LXFViewModel.LXFOutput?
@@ -60,7 +60,7 @@ extension LXFViewController {
         tableView.rx.setDelegate(self).disposed(by: rx.disposeBag)
         
         
-        let vmInput = LXFViewModel.LXFInput(category: .welfare)
+        let vmInput = LXFViewModel.LXFInput(category: .ios)
         let vmOutput = viewModel.transform(input: vmInput)
         
         vmOutput.sections.asDriver().drive(tableView.rx.items(dataSource: dataSource)).disposed(by: rx.disposeBag)

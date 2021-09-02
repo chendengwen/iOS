@@ -11,15 +11,15 @@ import ObjectMapper
 import RxDataSources
 
 struct LXFModel: Mappable {
-    var _id         = ""
-    var createdAt   = ""
-    var desc        = ""
-    var publishedAt = ""
-    var source      = ""
-    var type        = ""
-    var url         = ""
-    var used        = ""
-    var who         = ""
+    var views               = 0
+    var title               = ""
+    var publishedAt         = ""
+    var url                 = ""
+    var likeCounts          = 0
+    var type                = ""
+    var images:[String]?    = nil
+    var stars               = 0
+    var desc                = ""
     
     
     init?(map: Map) {
@@ -28,15 +28,15 @@ struct LXFModel: Mappable {
     
     mutating func mapping(map: Map) {
         
-        _id         <- map["_id"]
-        createdAt   <- map["createdAt"]
+        views       <- map["views"]
+        title       <- map["title"]
         desc        <- map["desc"]
         publishedAt <- map["publishedAt"]
-        source      <- map["source"]
+        likeCounts  <- map["likeCounts"]
         type        <- map["type"]
         url         <- map["url"]
-        used        <- map["used"]
-        who         <- map["who"]
+        stars       <- map["stars"]
+        images      <- map["images"]
     }
 }
 

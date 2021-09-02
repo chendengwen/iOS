@@ -29,7 +29,7 @@ extension Response {
             throw MoyaError.jsonMapping(self)
         }
 
-        guard let jsonArr = (json["results"] as? [[String : Any]]) else {
+        guard let jsonArr = (json["data"] as? [[String : Any]]) else {
             throw MoyaError.jsonMapping(self)
         }
         
