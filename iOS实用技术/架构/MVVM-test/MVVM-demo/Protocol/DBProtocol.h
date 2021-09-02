@@ -1,0 +1,6 @@
+@protocol DBProtocol <NSObject>
+
+
+
+@end
+

@@ -1,0 +1,87 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Differentiator (3.1.0)
+  - Kingfisher (4.10.1)
+  - MJRefresh (3.1.15.7)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - "NSObject+Rx (4.4.1)":
+    - RxSwift (~> 4.3)
+  - ObjectMapper (3.4.2)
+  - Result (4.1.0)
+  - Reusable (4.0.5):
+    - Reusable/Storyboard (= 4.0.5)
+    - Reusable/View (= 4.0.5)
+  - Reusable/Storyboard (4.0.5)
+  - Reusable/View (4.0.5)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - Then (2.4.0)
+
+DEPENDENCIES:
+  - Kingfisher
+  - MJRefresh
+  - Moya/RxSwift
+  - "NSObject+Rx"
+  - ObjectMapper
+  - Reusable
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - SnapKit
+  - SVProgressHUD
+  - Then
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Differentiator
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - "NSObject+Rx"
+    - ObjectMapper
+    - Result
+    - Reusable
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SnapKit
+    - SVProgressHUD
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+
+PODFILE CHECKSUM: 3fcdd0650aa8c0fa9d8abbb8d922ee2b00d7470a
+
+COCOAPODS: 1.9.1
