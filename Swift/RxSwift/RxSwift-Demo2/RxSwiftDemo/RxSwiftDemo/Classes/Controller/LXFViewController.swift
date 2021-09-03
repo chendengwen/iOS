@@ -20,11 +20,14 @@ import MJRefresh
 class LXFViewController: UIViewController {
     
     let viewModel = LXFViewModel()
+    var vmOutput : LXFViewModel.LXFOutput?
+    
     let tableView = UITableView().then {
         $0.backgroundColor = UIColor.red
         $0.register(cellType: LXFViewCell.self)
         $0.rowHeight = LXFViewCell.cellHeigh()
     }
+    
     let dataSource = RxTableViewSectionedReloadDataSource<LXFSection>(configureCell: { ds, tv, ip, item in
         let cell = tv.dequeueReusableCell(for: ip) as LXFViewCell
         cell.picView.kf.setImage(with: URL(string: item.images?.first ?? ""))
@@ -32,7 +35,9 @@ class LXFViewController: UIViewController {
         cell.sourceLabel.text = "title: \(item.title)"
         return cell
     })
-    var vmOutput : LXFViewModel.LXFOutput?
+}
+
+extension LXFViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,9 +48,7 @@ class LXFViewController: UIViewController {
         // 加载数据
         tableView.mj_header.beginRefreshing()
     }
-}
-
-extension LXFViewController {
+    
     fileprivate func setupUI() {
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
@@ -58,7 +61,6 @@ extension LXFViewController {
         
         // 设置代理
         tableView.rx.setDelegate(self).disposed(by: rx.disposeBag)
-        
         
         let vmInput = LXFViewModel.LXFInput(category: .ios)
         let vmOutput = viewModel.transform(input: vmInput)

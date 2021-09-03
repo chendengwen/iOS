@@ -43,14 +43,10 @@ struct LXFModel: Mappable {
 
 /* ============================= SectionModel =============================== */
 
-struct LXFSection {
-    
-    var items: [Item]
-}
-
-extension LXFSection: SectionModelType {
+struct LXFSection: SectionModelType {
     
     typealias Item = LXFModel
+    var items: [Item]
     
     init(original: LXFSection, items: [LXFSection.Item]) {
         self = original

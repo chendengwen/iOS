@@ -210,6 +210,7 @@
 				TargetAttributes = {
 					FD3547541F6129050049AA36 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VYDC264HUJ;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -455,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = VYDC264HUJ;
 				INFOPLIST_FILE = RxSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LXF.RxSwiftDemo;
@@ -471,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = VYDC264HUJ;
 				INFOPLIST_FILE = RxSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LXF.RxSwiftDemo;

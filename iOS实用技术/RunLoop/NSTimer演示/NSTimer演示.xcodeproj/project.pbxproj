@@ -295,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VYDC264HUJ;
-				INFOPLIST_FILE = "001--NSTimer演示/Info.plist";
+				INFOPLIST_FILE = "NSTimer演示/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tanzhouedu.-01--NSTimer--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VYDC264HUJ;
-				INFOPLIST_FILE = "001--NSTimer演示/Info.plist";
+				INFOPLIST_FILE = "NSTimer演示/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tanzhouedu.-01--NSTimer--";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -27,5 +27,48 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D561790D-4641-4CE9-8E62-812B926741A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSTimer&#x6f14;&#x793a;/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "99351AFA-8E59-4383-AC7F-03E04EF266FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x10dc15ff3">
+            <Locations>
+               <Location
+                  uuid = "99351AFA-8E59-4383-AC7F-03E04EF266FD - 26175b978bcdebbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController test_multiThread]"
+                  moduleName = "NSTimer&#x6f14;&#x793a;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gary/Documents/Github/iOS/iOS%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/RunLoop/NSTimer%E6%BC%94%E7%A4%BA/NSTimer%E6%BC%94%E7%A4%BA/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "67">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
