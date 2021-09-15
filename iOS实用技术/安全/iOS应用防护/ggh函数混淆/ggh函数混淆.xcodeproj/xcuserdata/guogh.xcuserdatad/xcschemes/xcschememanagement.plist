@@ -4,15 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>RxSwiftDemo.xcscheme_^#shared#^_</key>
+		<key>ggh函数混淆.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FD3547541F6129050049AA36</key>
+		<key>CFA469441F1B5AA000532B31</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFA4695D1F1B5AA000532B31</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFA469681F1B5AA000532B31</key>
 		<dict>
 			<key>primary</key>
 			<true/>
