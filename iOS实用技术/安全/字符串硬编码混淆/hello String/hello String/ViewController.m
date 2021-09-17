@@ -23,7 +23,7 @@ extern char* decryptConstString(char* string)
 }
 
 
-//字符串混淆加密 和 解密的宏开关
+//字符串加密 和 不加密的宏开关
 //#define ggh_confusion
 #ifdef ggh_confusion
     #define confusion_NSSTRING(string) [NSString stringWithUTF8String:decryptConstString(string)]
@@ -33,7 +33,9 @@ extern char* decryptConstString(char* string)
     #define confusion_CSTRING(string) string
 #endif
 
-
+//代码混淆标识，通过脚本查找到标示替换标识包裹的字符串
+//confusion_NSSTRING(string)
+//confusion_CSTRING(string)
 
 @implementation ViewController
 
