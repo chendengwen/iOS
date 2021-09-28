@@ -1,0 +1,22 @@
+use_frameworks!
+platform :ios, '11.0'
+
+
+# Import CocoaPods sources
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'EaseIM' do
+
+    pod 'MBProgressHUD'
+    pod 'Masonry'
+    pod 'MJRefresh'
+    pod 'SDWebImage'
+    pod 'AgoraRtcEngine_iOS'
+    pod 'FMDB'
+    pod 'EaseCallKit'
+    pod 'HyphenateChat','3.8.5'
+    pod 'EaseIMKit', '3.8.5'
+    #pod 'EaseIMKit',  :path => "../../EaseIMKit"
+    pod 'Bugly'
+end
+
