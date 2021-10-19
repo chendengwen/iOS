@@ -5,11 +5,12 @@
       "scale" : "1x"
     },
     {
-      "filename" : "启动页.png",
+      "filename" : "LaunchImage@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "LaunchImage@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

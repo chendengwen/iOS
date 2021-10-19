@@ -20,10 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSArray *launchImages = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImages"];
 }
 
 -(void)test{
     self.title_protocol = @"111";
+    
 }
 
 - (IBAction)beGinClick:(UIButton *)sender {
