@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4ECB160F271EEBEE00C7E8F4"
                BuildableName = "UI_test.app"
-               BlueprintName = "UI_test"
-               ReferencedContainer = "container:UI_test.xcodeproj">
+               BlueprintName = "Animation_test"
+               ReferencedContainer = "container:Animation_test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,8 +46,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4ECB160F271EEBEE00C7E8F4"
             BuildableName = "UI_test.app"
-            BlueprintName = "UI_test"
-            ReferencedContainer = "container:UI_test.xcodeproj">
+            BlueprintName = "Animation_test"
+            ReferencedContainer = "container:Animation_test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4ECB160F271EEBEE00C7E8F4"
             BuildableName = "UI_test.app"
-            BlueprintName = "UI_test"
-            ReferencedContainer = "container:UI_test.xcodeproj">
+            BlueprintName = "Animation_test"
+            ReferencedContainer = "container:Animation_test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
