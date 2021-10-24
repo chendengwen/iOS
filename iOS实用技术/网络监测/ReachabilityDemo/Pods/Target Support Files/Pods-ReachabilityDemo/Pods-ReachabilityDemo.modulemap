@@ -1,0 +1,6 @@
+framework module Pods_ReachabilityDemo {
+  umbrella header "Pods-ReachabilityDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

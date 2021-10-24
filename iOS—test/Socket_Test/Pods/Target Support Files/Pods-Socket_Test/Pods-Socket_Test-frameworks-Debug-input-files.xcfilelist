@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Socket_Test/Pods-Socket_Test-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetwork/AFNetwork.framework
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework

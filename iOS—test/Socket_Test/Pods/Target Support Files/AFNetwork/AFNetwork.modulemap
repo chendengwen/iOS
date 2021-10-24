@@ -1,0 +1,6 @@
+framework module AFNetwork {
+  umbrella header "AFNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

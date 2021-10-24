@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="域名：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azD-dG-Z2G">
+                                <rect key="frame" x="20" y="88" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="www.google.com" borderStyle="roundedRect" placeholder="请输入要检测的域名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o8V-zA-x2d">
+                                <rect key="frame" x="100" y="129" width="294" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UJS-Bh-bAB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLx-6f-Qfb">
+                                <rect key="frame" x="20" y="205" width="374" height="47"/>
+                                <color key="backgroundColor" red="0.30980392159999998" green="0.4823529412" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="7hR-S1-mtT"/>
+                                </constraints>
+                                <state key="normal" title="检测当前网络状况">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gyW-Zr-Oye"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAs-Gb-dmD">
+                                <rect key="frame" x="20" y="312" width="374" height="47"/>
+                                <color key="backgroundColor" red="0.30980392159999998" green="0.4823529412" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="aEw-ED-3jI"/>
+                                </constraints>
+                                <state key="normal" title="开始网络监控">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gdj-gg-APx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVe-Tw-Oxo">
+                                <rect key="frame" x="20" y="379" width="374" height="47"/>
+                                <color key="backgroundColor" red="0.30980392159999998" green="0.4823529412" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="Dma-Ye-Pua"/>
+                                </constraints>
+                                <state key="normal" title="停止网络监控">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3nY-iY-Ncp"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vne-Vz-jWu">
+                                <rect key="frame" x="345" y="486" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Kmt-gP-uI3">
+                                <rect key="frame" x="345" y="537" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否使用RealReachability" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eR0-iK-Ma6">
+                                <rect key="frame" x="140" y="491" width="195" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否使用AFNetworking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFJ-Qm-wMf">
+                                <rect key="frame" x="158" y="542" width="177" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ping:   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T2S-qe-v29">
+                                <rect key="frame" x="30" y="129" width="52" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="JoR-ni-znW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="www.baidu.com" borderStyle="roundedRect" placeholder="请输入要检测的域名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xeA-Yk-HuS">
+                                <rect key="frame" x="102" y="165" width="292" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AvE-DF-iYh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ffo-U1-AST">
+                                <rect key="frame" x="30" y="165" width="54" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="673-vb-YcS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kmt-gP-uI3" secondAttribute="trailing" constant="20" id="1mx-Sy-IpW"/>
+                            <constraint firstItem="eR0-iK-Ma6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3G7-W0-GYN"/>
+                            <constraint firstItem="UFJ-Qm-wMf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5DW-Xg-Px4"/>
+                            <constraint firstItem="azD-dG-Z2G" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="657-Ld-Hq6"/>
+                            <constraint firstItem="azD-dG-Z2G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6LC-Kb-K0s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BLx-6f-Qfb" secondAttribute="trailing" constant="20" id="8fX-Yy-hId"/>
+                            <constraint firstItem="BLx-6f-Qfb" firstAttribute="top" secondItem="Ffo-U1-AST" secondAttribute="bottom" constant="10" id="8n5-Mx-2Qj"/>
+                            <constraint firstItem="Ffo-U1-AST" firstAttribute="leading" secondItem="T2S-qe-v29" secondAttribute="leading" id="AWl-HX-6U9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o8V-zA-x2d" secondAttribute="trailing" constant="20" id="Dbk-vL-1E7"/>
+                            <constraint firstItem="FVe-Tw-Oxo" firstAttribute="top" secondItem="eAs-Gb-dmD" secondAttribute="bottom" constant="20" id="DcZ-0i-s3Y"/>
+                            <constraint firstItem="o8V-zA-x2d" firstAttribute="leading" secondItem="T2S-qe-v29" secondAttribute="trailing" constant="18" id="Dk6-oi-Cu3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vne-Vz-jWu" secondAttribute="trailing" constant="20" id="FOm-0A-Rdg"/>
+                            <constraint firstItem="vne-Vz-jWu" firstAttribute="top" secondItem="FVe-Tw-Oxo" secondAttribute="bottom" constant="60" id="GGb-yN-JQ1"/>
+                            <constraint firstItem="T2S-qe-v29" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Ha4-YJ-w4a"/>
+                            <constraint firstItem="eAs-Gb-dmD" firstAttribute="top" secondItem="BLx-6f-Qfb" secondAttribute="bottom" constant="60" id="JJU-r8-FiL"/>
+                            <constraint firstItem="Ffo-U1-AST" firstAttribute="top" secondItem="xeA-Yk-HuS" secondAttribute="top" id="JkB-Bt-z12"/>
+                            <constraint firstItem="xeA-Yk-HuS" firstAttribute="trailing" secondItem="o8V-zA-x2d" secondAttribute="trailing" id="LFZ-Rj-ijZ"/>
+                            <constraint firstItem="Ffo-U1-AST" firstAttribute="top" secondItem="T2S-qe-v29" secondAttribute="bottom" constant="6" id="NEn-g1-ugy"/>
+                            <constraint firstItem="vne-Vz-jWu" firstAttribute="leading" secondItem="eR0-iK-Ma6" secondAttribute="trailing" constant="10" id="OQ5-7r-TC7"/>
+                            <constraint firstItem="eAs-Gb-dmD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Q28-N0-FmX"/>
+                            <constraint firstItem="vne-Vz-jWu" firstAttribute="centerY" secondItem="eR0-iK-Ma6" secondAttribute="centerY" id="d9e-d4-Xlm"/>
+                            <constraint firstItem="o8V-zA-x2d" firstAttribute="top" secondItem="azD-dG-Z2G" secondAttribute="bottom" constant="20" id="jTh-0P-g8O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FVe-Tw-Oxo" secondAttribute="trailing" constant="20" id="k2o-Fo-t3o"/>
+                            <constraint firstItem="BLx-6f-Qfb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kdo-OO-6b9"/>
+                            <constraint firstItem="Kmt-gP-uI3" firstAttribute="top" secondItem="vne-Vz-jWu" secondAttribute="bottom" constant="20" id="mbG-Ng-E4t"/>
+                            <constraint firstItem="Kmt-gP-uI3" firstAttribute="leading" secondItem="UFJ-Qm-wMf" secondAttribute="trailing" constant="10" id="mhR-gR-wHI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="azD-dG-Z2G" secondAttribute="trailing" constant="20" id="nP5-UI-9l7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eAs-Gb-dmD" secondAttribute="trailing" constant="20" id="pMp-rY-VSH"/>
+                            <constraint firstItem="T2S-qe-v29" firstAttribute="top" secondItem="o8V-zA-x2d" secondAttribute="top" id="q8T-5J-ckX"/>
+                            <constraint firstItem="FVe-Tw-Oxo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="up2-cr-DdW"/>
+                            <constraint firstItem="Kmt-gP-uI3" firstAttribute="centerY" secondItem="UFJ-Qm-wMf" secondAttribute="centerY" id="wcR-IA-Sf0"/>
+                            <constraint firstItem="xeA-Yk-HuS" firstAttribute="leading" secondItem="Ffo-U1-AST" secondAttribute="trailing" constant="18" id="zCS-G2-Uaj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="checkButton" destination="BLx-6f-Qfb" id="a1J-Xs-eNt"/>
+                        <outlet property="domainTextField" destination="o8V-zA-x2d" id="fWh-Wp-ymy"/>
+                        <outlet property="isAFNetworkingSwitch" destination="Kmt-gP-uI3" id="l5e-5k-Lw0"/>
+                        <outlet property="isRealSwitch" destination="vne-Vz-jWu" id="7PC-HR-vDk"/>
+                        <outlet property="startButton" destination="eAs-Gb-dmD" id="5fo-GX-GZl"/>
+                        <outlet property="stopButton" destination="FVe-Tw-Oxo" id="Lkh-qv-unc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
